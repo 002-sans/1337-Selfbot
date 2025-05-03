@@ -1,0 +1,1436 @@
+{
+    "name": "▸ ZCH SB 🥥",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "「OWNERS」",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍥・CGT",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "「OWNERS」",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "👑・ ᴢᴇʀʀᴀx",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "「OWNERS」",
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2097664"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "281474979857408"
+                            },
+                            {
+                                "roleName": "▸ User",
+                                "allow": "3146752",
+                                "deny": "1407374883553280"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "「SUPPORT」",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📩・ᴛɪᴄᴋᴇᴛꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「SUPPORT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻・ᴅᴇᴠ-ᴜᴘᴅᴀᴛᴇ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「SUPPORT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚡・ᴀᴠɪꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「SUPPORT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "▸ ZCH Connect 2",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "▸ ZCH Connect",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🆘・ᴘʀᴏʙʟᴇᴍꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「SUPPORT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌍・ᴛᴀᴋᴇ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「SUPPORT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🆘・messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「SUPPORT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "「INFORMATIONS」",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❓・ɪɴꜰᴏʀᴍᴀᴛɪᴏɴꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「INFORMATIONS」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💎・ʙᴏᴏꜱᴛꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「INFORMATIONS」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔄・ʀᴇsᴛᴀʀᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「INFORMATIONS」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍹・ᴀᴠᴏɪʀ-ʟᴇ-ꜱᴇʟꜰʙᴏᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「INFORMATIONS」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔑・ᴘʀᴇᴍɪᴜᴍ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「INFORMATIONS」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎁・ɢɪᴠᴇᴀᴡᴀʏ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「INFORMATIONS」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "Non connecté",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "「CHAT」",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1126449662656512"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・ᴄʜᴀᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「CHAT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "NO DEL",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻・ᴄᴍᴅꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「CHAT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "32768"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❓・ꜱᴜɢɢᴇꜱᴛɪᴏɴꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「CHAT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "premium",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「CHAT」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Premium",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "「STAFF」",
+                "permissions": [
+                    {
+                        "roleName": "▸ MySelf",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・ᴄʜᴀᴛ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「STAFF」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "▸ MySelf",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "76800",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻・ᴄᴍᴅꜱ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「STAFF」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "▸ MySelf",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "「  OWNERS  」",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📋・ʟᴏɢs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「  OWNERS  」",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🚫",
+                                "allow": "0",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "「TICKETS」",
+                "permissions": [
+                    {
+                        "roleName": "▸ Support",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "la-crapule",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@681845456355328010> le <t:1742907413:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "aoomine_daikii",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1298298370800095245> le <t:1742915288:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "el-king-𝖀",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1349805915561263185> le <t:1742917579:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "love-sosa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1337459289501077514> le <t:1742923255:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "xltxqoo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1086014518527791204> le <t:1742924218:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "réouvert-mehdi",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket réouvert par <@705510969383714888> le <t:1743005683:F>.",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "68688",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "il-etait-une-fois--relationnel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1298695857872441377> le <t:1743001699:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ktio",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1042411703117283388> le <t:1743138844:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "-ㄒㄖ爪千ㄥㄒ",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@532670035315916802> le <t:1743218046:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ℜ🕷",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1188045723841859605> le <t:1743341576:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "₉",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1273874412193714279> le <t:1743355086:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "tdx-rootvenom-0x",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1291816959197052968> le <t:1743377450:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "vraie-meuf-de-l’irl",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1343689241791565854> le <t:1743418590:F>",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "shadowpulse-mlf1e-pplltcdml",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@611238780900212760> le <t:1743442818:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "fermé-feyy",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket fermé par <@1153259920150507542> le <t:1743545709:F>.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "68688",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "yamowno",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1354794171784892416> le <t:1743454489:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "coucou",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@677963502849359921> le <t:1743497829:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "fermé-belin",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket fermé par <@1273719308576362517> le <t:1743499841:F>.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "68688",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "-",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1175885565858697231> le <t:1743498484:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "mr-alias-k3",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1231651717846929409> le <t:1743504372:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "yemma-smehli",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1335587823742353459> le <t:1743523255:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "hatedbydc",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1227847579912634400> le <t:1743531113:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "feyy",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1153259920150507542> le <t:1743545716:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "fermé-♰-𝐓𝐨𝐣𝐢𝚑𝚝𝚖𝚕-♰",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket fermé par <@976575193088680007> le <t:1743555122:F>.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "68688",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "04--add-j’ai-sauté-",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@1272950975304564766> le <t:1743598505:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "reyna",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "「TICKETS」",
+                        "topic": "Ticket créé par <@779731352198578181> le <t:1743621639:F>",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "▸ Support",
+                                "allow": "17179937872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "rules",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "🚫",
+                        "allow": "0",
+                        "deny": "2112"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "🚫",
+                        "allow": "0",
+                        "deny": "2112"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "▸ Connexion",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "━━━━━━━━━━━━━━━━━",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ MySelf",
+            "color": "#050505",
+            "hoist": true,
+            "permissions": "268436480",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Support",
+            "color": "#ffed8a",
+            "hoist": true,
+            "permissions": "103079223424",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "🚫",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Legend",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Premium",
+            "color": "#ffc300",
+            "hoist": true,
+            "permissions": "1024",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ ZCH Connect",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ ZCH Connect 2",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "━━━━━━━━━━━━━━━━━",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Elite",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "━━━━━━━━━━━━━━━━━",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ User",
+            "color": "#80c2ff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "━━━━━━━━━━━━━━━━━",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "/",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "Meilleur membre",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1096082200579649",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743634477599,
+    "guildID": "1272234696969027749",
+    "id": "22394410",
+    "iconURL": "https://cdn.discordapp.com/icons/1272234696969027749/a_69dfd03b506e671ed759c58d3959e2a2.gif",
+    "bannerURL": "https://cdn.discordapp.com/banners/1272234696969027749/a_eb0fccb984170dc8ef2bb91eb1935a05.webp"
+}

@@ -1,0 +1,1854 @@
+{
+    "name": "Island",
+    "verificationLevel": "MEDIUM",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": {
+        "name": "🎐・SleepCall",
+        "timeout": 900
+    },
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "︰Tickets Island",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "2112"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "closed-ticket-𝕡𝕙𝕒𝕟𝕥𝕠𝕞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Tickets Island",
+                        "topic": "Échange de Publicités / 1160179593370673242",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-🤪-papy-naga-🤪",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Tickets Island",
+                        "topic": "Échange de Publicités / 685794583317315751",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "closed-ticket-wmrt90",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Tickets Island",
+                        "topic": "Échange de Publicités / 941165547700232193",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-purplebud",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Tickets Island",
+                        "topic": "Échange de Publicités / 460613751507517473",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Actualités",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "274877907968",
+                        "deny": "103079217152"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "📢・annonces",
+                        "nsfw": false,
+                        "parent": "︰Actualités",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877907968",
+                                "deny": "103079217152"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "⚓・animations",
+                        "nsfw": false,
+                        "parent": "︰Actualités",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877907968",
+                                "deny": "103079217152"
+                            },
+                            {
+                                "roleName": "🌿 :  Modérateurs",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "🛟・sondages",
+                        "nsfw": false,
+                        "parent": "︰Actualités",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877907968",
+                                "deny": "103079217152"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Informations",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "🌹 :  Membres",
+                        "allow": "1049600",
+                        "deny": "2112"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📃・réglement",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Informations",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💫・guide",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Informations",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🪵・rôles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Informations",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1048576",
+                                "deny": "3136"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔮・boosts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Informations",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📞・support",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Informations",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰General",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "🌹 :  Membres",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・discussion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰General",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Island",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔖・media",
+                        "parent": "︰General",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1082368",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877940736",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔌・commandes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰General",
+                        "topic": "**Salon dédié aux commands, pour un maximum de musica. N’hèsitez pas à /vote et /bump pour aider le serveur**",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Divertissement",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "︰Vocal",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "🌹 :  Membres",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌴・Island",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Vocal",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "⛲・Détente",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Vocal",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎮・Jeux",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Vocal",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎸・Musique",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Vocal",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎐・SleepCall",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Vocal",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1049600",
+                                "deny": "2097152"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "︰Mini-Jeux",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "🌹 :  Membres",
+                        "allow": "1051648",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🐳・règles-mudae",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Mini-Jeux",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🌊 : Administrateurs",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🐋・mudae",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Mini-Jeux",
+                        "topic": "🗞️ • Des quêtes sont apparues dans les messages épinglés",
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1088",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⛵・koya",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Mini-Jeux",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎀・rinbot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Mini-Jeux",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Publicité",
+                "permissions": [
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "🌹 :  Membres",
+                        "allow": "1049600",
+                        "deny": "2112"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🎀 : Gérant Publicités",
+                        "allow": "322624",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🛟・publicités",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Publicité",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎀 : Gérant Publicités",
+                                "allow": "322624",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏖・notre-publicité",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Publicité",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎀 : Gérant Publicités",
+                                "allow": "1024",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Staff",
+                "permissions": [
+                    {
+                        "roleName": "🌹 :  Equipe Island",
+                        "allow": "274877910016",
+                        "deny": "103079346176"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Reunion",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Staff",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "274877910016",
+                                "deny": "103079346176"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📣・annonces",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "343597384704",
+                                "deny": "34359871488"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "💫・OSS",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Staff",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "274877910016",
+                                "deny": "103079346176"
+                            },
+                            {
+                                "roleName": "🌵 : Los Compadres",
+                                "allow": "36701184",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🕊・discussion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "274877910016",
+                                "deny": "103079346176"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🪷・media",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "377957174272",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌟・Bureau des Admins",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "︰Staff",
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "274877910016",
+                                "deny": "103079346176"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌱・commandes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "274877910016",
+                                "deny": "103079346176"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📑・absence",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "274877910016",
+                                "deny": "103079346176"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "admin",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Logs",
+                "permissions": [
+                    {
+                        "roleName": "🌹 :  Equipe Island",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muted",
+                        "allow": "0",
+                        "deny": "2099264"
+                    },
+                    {
+                        "roleName": "🤖︰Bots",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦔・logs-messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚒・logs-rôles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦈・logs-modifications-serveur",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔧・logs-update-membres",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌿・logs-sécurité",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎤・logs-vocal",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🐢・logs-bannissements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔖・media",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🌹 :  Membres",
+                                "allow": "1099840",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦋・logs-channel",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦑・logs-emoji",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦜・logs-thread",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦎・logs-automod",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "logs-invitations",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "logs-tickets",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "︰Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌹 :  Equipe Island",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muted",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "🤖︰Bots",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "︰Haut Staff",
+                "permissions": [
+                    {
+                        "roleName": "🌊 : Administrateurs",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": []
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "💫・updates-discord",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "🌴 : Fondateur",
+            "color": "#c4fff9",
+            "hoist": true,
+            "permissions": "4398046511104",
+            "mentionable": true,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "🌊 : Administrateurs",
+            "color": "#79aae2",
+            "hoist": true,
+            "permissions": "30786325446655",
+            "mentionable": true,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "🌿 :  Modérateurs",
+            "color": "#3ba06b",
+            "hoist": true,
+            "permissions": "52767162761159",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "🎀 : Gérant Publicités",
+            "color": "#dd61a0",
+            "hoist": true,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "🌹 :  Equipe Island",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "🌵 : Los Compadres",
+            "color": "#ffee6d",
+            "hoist": true,
+            "permissions": "21020672",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "🌹 :  Membres",
+            "color": "#a5ff8e",
+            "hoist": true,
+            "permissions": "691526699584",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖︰Bots",
+            "color": "#a7a4a4",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "Homme",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Femme",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "Autres",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "15 ans",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "16-17 ans",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "18 + ans",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Annonces",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "Giveaways",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "Animations",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Publicités",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "4294967296",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Sondages",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "693741362753",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "2022",
+            "color": "#59beff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "100 membres",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "200",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "300",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "400",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "Muted",
+            "color": "#979c9f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "500",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "*",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2221707229470209",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743634440210,
+    "guildID": "1014655937665052863",
+    "id": "96908311",
+    "iconURL": "https://cdn.discordapp.com/icons/1014655937665052863/9ca9658c865854fd7c2b7860a03824fa.webp"
+}

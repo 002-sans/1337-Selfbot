@@ -1,0 +1,2024 @@
+{
+    "name": "Sparte #Beta",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "@/Sparte",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "・Members: 385",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "@/Sparte",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "・Users: 66",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "@/Sparte",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "@Public",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Public",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "︰usernames",
+                        "nsfw": false,
+                        "parent": "@Public",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰boost",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Public",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰support",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Public",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰goodbye",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Public",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "@User",
+                "permissions": [
+                    {
+                        "roleName": "User",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰news",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@User",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰updates",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@User",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@User",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Friend/Contributor",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "User",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "・avis",
+                        "nsfw": false,
+                        "rateLimitPerUser": 1800,
+                        "parent": "@User",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1050624"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰ideas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@User",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "User",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "@ticket-question",
+                "permissions": [
+                    {
+                        "roleName": "Support",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Administrator",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Moderator",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Founder",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-175",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-179",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-188",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-189",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-194",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-196",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-202",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-203",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-206",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-208",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-209",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-210",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-212",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-question",
+                        "topic": "Question / Informations",
+                        "permissions": [
+                            {
+                                "roleName": "Support",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Moderator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "@ticket-connection",
+                "permissions": [
+                    {
+                        "roleName": "Administrator",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Manager",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Founder",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-129",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-135",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-147",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-150",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-153",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-154",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-170",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-177",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-178",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-180",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Invite Management",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administrator",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "￶",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "-",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Bot",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "isa",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-183",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-185",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-187",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-190",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-193",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-198",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-199",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-204",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-211",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@ticket-connection",
+                        "topic": "Connect",
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "2147601472",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Tickets",
+                                "allow": "2684472384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "@Manager",
+                "permissions": [
+                    {
+                        "roleName": "Administrator",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Manager",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Founder",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰request",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Manager",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰starting",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Manager",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰errors",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Manager",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "︰disconnect",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "@Manager",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administrator",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "User",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Manager",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Founder",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "_",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "Support",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Administrator",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Manager",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Founder",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Moderator",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "-",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Bot",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Devs",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "2147483648",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "￶",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "Founder",
+            "color": "#050505",
+            "hoist": true,
+            "permissions": "9898251526146",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Élite",
+            "color": "#f54971",
+            "hoist": true,
+            "permissions": "1102091124736",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Manager",
+            "color": "#4be0e0",
+            "hoist": true,
+            "permissions": "1125902054326272",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Administrator",
+            "color": "#f15e61",
+            "hoist": true,
+            "permissions": "1127001797697665",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Moderator",
+            "color": "#ec9b68",
+            "hoist": true,
+            "permissions": "2147491840",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Support",
+            "color": "#e6be5c",
+            "hoist": true,
+            "permissions": "2147483648",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Friend/Contributor",
+            "color": "#e7ee87",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Bug Hunter",
+            "color": "#54da8c",
+            "hoist": true,
+            "permissions": "2147483648",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "User",
+            "color": "#62b3e9",
+            "hoist": true,
+            "permissions": "2147485696",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "Member",
+            "color": "#dbaf79",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "======Perms======",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "nouveau rôle",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2221844668468801",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743634467109,
+    "guildID": "1266814351793459281",
+    "id": "54389361",
+    "iconURL": "https://cdn.discordapp.com/icons/1266814351793459281/67c055c1a47e623e3246926e032b6961.webp"
+}

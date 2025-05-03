@@ -1,0 +1,2711 @@
+{
+    "name": "𝙎𝙚𝙞𝙠𝙞・🍉",
+    "verificationLevel": "MEDIUM",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ALL_MESSAGES",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "📊・SERVER STATS",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍉・Objectif : 800",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "📊・SERVER STATS",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍉・Members-727",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "📊・SERVER STATS",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍉・Boost 19",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "📊・SERVER STATS",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍉・discord.gg/Seiki",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "📊・SERVER STATS",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "🎀・Bienvenue",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫・welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎀・Bienvenue",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚪・bye",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎀・Bienvenue",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔮・boost",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎀・Bienvenue",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "💼・Bureaux",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍭・Bureau Jane",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "💼・Bureaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍭・Bureau Hiro",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "💼・Bureaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍭・Bureau Nana",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "💼・Bureaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍭・Bureau Izana",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "💼・Bureaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍭・Bureau Mlle",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "💼・Bureaux",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "info staff",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📋・règlement-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔎・quotas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・bot-du-serv",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌・absence",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📇・suggestion-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢・annonce-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎏・info-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "𝙎𝙚𝙞𝙠𝙞・🍉",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚠・sanction",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "info staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "staff",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍄・discussion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "admin",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "staff",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎀・admin-only",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎏・seiki-fusion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・all-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📌・INFORMATIONS",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❔・sondage",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅・reglement",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔎・proof",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎁・giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💌・invitations",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎁・giveaways²",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📈・niveaux",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・INFORMATIONS",
+                        "topic": "Regarde tes niveaux ici",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📌・infos perso",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌹・roles-notif",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・infos perso",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌹・roles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・infos perso",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌹・roles-couleurs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・infos perso",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌹・présentations",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・infos perso",
+                        "topic": "Présentez vous dans ce salon",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌹・info-rôles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌・infos perso",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🍉・général",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❄・général",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🍉・général",
+                        "topic": "racontes ta vie",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎅・commandes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🍉・général",
+                        "topic": "Tout ce qui est en rapport avec les bots",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍉・seiki",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🍉・général",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⛄・médias",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🍉・général",
+                        "topic": "Envoies tes images et vidéos à volonté",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎰・casino",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🍉・général",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "💌・Partage",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・dessins",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": "Entre artiste ici ^^",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚡・vos-disquettes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "☕・débat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎵・musique",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤳・selfies",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": "Montre nous ta petite bouille ^^",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📝・anecdote",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🖋・donnez-votre-avis",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💌・Partage",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "❓・ Aides",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🧾・candidature-staff",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "❓・ Aides",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎟・ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "❓・ Aides",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🎈・Communautaire",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔖・demande-partenariats",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎈・Communautaire",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔖・fusions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎈・Communautaire",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔖・notre-pub",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎈・Communautaire",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔖・partenariats",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎈・Communautaire",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🈲・Otaku-zone",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👒・one-piece",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🥊・tokyo-rev",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🗡・sao",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎭・bleach",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "☔・jojos-bizarre-adventure",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎎・suggestions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🧚・fairy-tail",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔰・snk",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👺・demon-slayer",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚡・dbz",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🈲・Otaku-zone",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🀄・Mudae & +",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎀・waifu-rolls",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🀄・Mudae & +",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎀・waifu-commandes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🀄・Mudae & +",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎐・karuta",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🀄・Mudae & +",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍵・mudae-tea",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🀄・Mudae & +",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🎮・Link start",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👥・cherche-m8",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🎮・Link start",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🥢・salons vocaux",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎵・Musique",
+                        "bitrate": 8000,
+                        "userLimit": 20,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔇・nomicro¹",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🥢・salons vocaux",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎉・event",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🥢・salons vocaux",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🧃・Vocal 8",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎵・Musique",
+                        "bitrate": 8000,
+                        "userLimit": 20,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍰・Vocal 5",
+                        "bitrate": 8000,
+                        "userLimit": 50,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥀・Vocal 10",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "⚡・Vocal 11",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍉・Vocal 2",
+                        "bitrate": 8000,
+                        "userLimit": 50,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥀・Vocal 9",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎉・Events",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "⚡・Vocal 12",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍰・Vocal 6",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍑・Vocal 3",
+                        "bitrate": 8000,
+                        "userLimit": 50,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍑・Vocal 4",
+                        "bitrate": 8000,
+                        "userLimit": 50,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍉・Vocal 1",
+                        "bitrate": 8000,
+                        "userLimit": 50,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🧃・Vocal 7",
+                        "bitrate": 8000,
+                        "userLimit": 30,
+                        "parent": "🥢・salons vocaux",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "☕・salon privé",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔇・no-micro²",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "☕・salon privé",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥤・Solo ²",
+                        "bitrate": 8000,
+                        "userLimit": 1,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "➕・Join to create (hub)",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "━━━━・🍉・━━━━",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "⛩・Squad ¹",
+                        "bitrate": 8000,
+                        "userLimit": 4,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "⛩・Squad ²",
+                        "bitrate": 8000,
+                        "userLimit": 4,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "━━━━・🍉・━━━━",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "━━━━・🍉・━━━━",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎌・Trio ²",
+                        "bitrate": 8000,
+                        "userLimit": 3,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "━━━━・🍉・━━━━",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥤・Solo ¹",
+                        "bitrate": 8000,
+                        "userLimit": 1,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥢・Duo ²",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "━━━━・🍉・━━━━",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥢・Duo ¹",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎌・Trio ¹",
+                        "bitrate": 8000,
+                        "userLimit": 3,
+                        "parent": "☕・salon privé",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "🛏・Sleep Call",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌘・Sleep Call 6",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌙・Sleep Call 7",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌙・Sleep Call 1",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌘・Sleep Call 4",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌙・Sleep Call 5",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌘・Sleep Call 2",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🌙・Sleep Call 3",
+                        "bitrate": 8000,
+                        "userLimit": 2,
+                        "parent": "🛏・Sleep Call",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "Community Manager",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💐・cm-info",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Community Manager",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌸・chat-partenariat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Community Manager",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦩・cm-count",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Community Manager",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "animateur",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎐・animateur",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "animateur",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🎐・animateur voc",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "animateur",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "Fourni",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🥢・fournisseur",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Fourni",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🥢・fournisseur voc",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "Fourni",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "LOGS",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・default-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・member-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・message-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ftnl-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✔・raidprotect-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・voice-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・server-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・joinleave-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "ticket-0124",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_VOICE",
+                "name": "Humans: 693",
+                "bitrate": 8000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "nouveau rôle",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "9887014191103",
+            "mentionable": false,
+            "position": 138,
+            "isEveryone": false
+        },
+        {
+            "name": "Seiki・🐞",
+            "color": "#820000",
+            "hoist": true,
+            "permissions": "8798038649951",
+            "mentionable": false,
+            "position": 137,
+            "isEveryone": false
+        },
+        {
+            "name": "Fondateurs du serv・🍉",
+            "color": "#ff8c8c",
+            "hoist": true,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 136,
+            "isEveryone": false
+        },
+        {
+            "name": "Co-Fonda・🚛",
+            "color": "#d56060",
+            "hoist": true,
+            "permissions": "8798239981567",
+            "mentionable": false,
+            "position": 135,
+            "isEveryone": false
+        },
+        {
+            "name": "Administrateur・🎀",
+            "color": "#f44242",
+            "hoist": true,
+            "permissions": "8797703106383",
+            "mentionable": false,
+            "position": 134,
+            "isEveryone": false
+        },
+        {
+            "name": ".",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "268959752",
+            "mentionable": false,
+            "position": 133,
+            "isEveryone": false
+        },
+        {
+            "name": "Seiki Fusion・🍉",
+            "color": "#df7e66",
+            "hoist": true,
+            "permissions": "8797703630791",
+            "mentionable": false,
+            "position": 132,
+            "isEveryone": false
+        },
+        {
+            "name": "perm all",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8797432446663",
+            "mentionable": false,
+            "position": 131,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Administrateur test",
+            "color": "#f44242",
+            "hoist": true,
+            "permissions": "8797669555407",
+            "mentionable": false,
+            "position": 130,
+            "isEveryone": false
+        },
+        {
+            "name": "๖̶ζ͜͡RaidProtect",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 129,
+            "isEveryone": false
+        },
+        {
+            "name": "DraftBot",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798206422527",
+            "mentionable": false,
+            "position": 128,
+            "isEveryone": false
+        },
+        {
+            "name": "Koya",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8797703105663",
+            "mentionable": false,
+            "position": 127,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Gérant Staff",
+            "color": "#ff8e8e",
+            "hoist": true,
+            "permissions": "8797703352007",
+            "mentionable": false,
+            "position": 126,
+            "isEveryone": false
+        },
+        {
+            "name": "drama queen",
+            "color": "#ff07c6",
+            "hoist": false,
+            "permissions": "335610881",
+            "mentionable": false,
+            "position": 125,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Gérant modération",
+            "color": "#ffc3c3",
+            "hoist": true,
+            "permissions": "267907015",
+            "mentionable": false,
+            "position": 124,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Modérateur",
+            "color": "#ffde91",
+            "hoist": true,
+            "permissions": "8798239981507",
+            "mentionable": false,
+            "position": 123,
+            "isEveryone": false
+        },
+        {
+            "name": "perm III",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8797434539715",
+            "mentionable": false,
+            "position": 122,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Modérateur test",
+            "color": "#ffde91",
+            "hoist": true,
+            "permissions": "68609",
+            "mentionable": true,
+            "position": 121,
+            "isEveryone": false
+        },
+        {
+            "name": "perm II",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "132501185",
+            "mentionable": false,
+            "position": 120,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Helpers",
+            "color": "#fbc94c",
+            "hoist": true,
+            "permissions": "68609",
+            "mentionable": false,
+            "position": 119,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Animateur",
+            "color": "#f78e06",
+            "hoist": true,
+            "permissions": "66576321",
+            "mentionable": false,
+            "position": 118,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Yoku",
+            "color": "#f2510b",
+            "hoist": true,
+            "permissions": "8798240505847",
+            "mentionable": true,
+            "position": 117,
+            "isEveryone": false
+        },
+        {
+            "name": "perm I",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "70633153",
+            "mentionable": false,
+            "position": 116,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Gérant Community Manager",
+            "color": "#c18c88",
+            "hoist": true,
+            "permissions": "104189633",
+            "mentionable": true,
+            "position": 115,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Community manager expers",
+            "color": "#e7ad42",
+            "hoist": false,
+            "permissions": "67177473",
+            "mentionable": false,
+            "position": 114,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Community manager avancé",
+            "color": "#edce6f",
+            "hoist": false,
+            "permissions": "67177473",
+            "mentionable": false,
+            "position": 113,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Community Manager",
+            "color": "#efd679",
+            "hoist": true,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 112,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Gérant Bot",
+            "color": "#b4eeb6",
+            "hoist": false,
+            "permissions": "372575809",
+            "mentionable": false,
+            "position": 111,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Gérant fournisseur",
+            "color": "#ff9472",
+            "hoist": true,
+            "permissions": "536342467",
+            "mentionable": true,
+            "position": 110,
+            "isEveryone": false
+        },
+        {
+            "name": "๑˚Fournisseurs",
+            "color": "#ca7cff",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 109,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Staff Seiki",
+            "color": "#2c2f31",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 108,
+            "isEveryone": false
+        },
+        {
+            "name": "★━━━━━━━━━━━━━━Actif serveur━━━━━━━━━━━━━━━★",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 107,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Responsable",
+            "color": "#80b1ff",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 106,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Co-responsable",
+            "color": "#c1ffe2",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 105,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Gérant staff",
+            "color": "#ff5827",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 104,
+            "isEveryone": false
+        },
+        {
+            "name": "Kintaro",
+            "color": "#020202",
+            "hoist": true,
+            "permissions": "8797234261061",
+            "mentionable": true,
+            "position": 103,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Staff",
+            "color": "#ff8038",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 102,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Guide",
+            "color": "#adffb3",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 101,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Vip+",
+            "color": "#ffdd2d",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 100,
+            "isEveryone": false
+        },
+        {
+            "name": "❆・Vip",
+            "color": "#ffe09d",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 99,
+            "isEveryone": false
+        },
+        {
+            "name": "YAGPDB.xyz",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798239849983",
+            "mentionable": false,
+            "position": 98,
+            "isEveryone": false
+        },
+        {
+            "name": "ServerStats",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1100824",
+            "mentionable": false,
+            "position": 97,
+            "isEveryone": false
+        },
+        {
+            "name": "DISBOARD.org",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "19473",
+            "mentionable": false,
+            "position": 96,
+            "isEveryone": false
+        },
+        {
+            "name": "Ticket Tool",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "805432400",
+            "mentionable": false,
+            "position": 95,
+            "isEveryone": false
+        },
+        {
+            "name": "Musical Tune",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "62254153",
+            "mentionable": false,
+            "position": 94,
+            "isEveryone": false
+        },
+        {
+            "name": "Lofi Radio",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "66407488",
+            "mentionable": false,
+            "position": 93,
+            "isEveryone": false
+        },
+        {
+            "name": "MarriageBot",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "313408",
+            "mentionable": false,
+            "position": 92,
+            "isEveryone": false
+        },
+        {
+            "name": "InviteLogger",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "268462304",
+            "mentionable": false,
+            "position": 91,
+            "isEveryone": false
+        },
+        {
+            "name": "D-INVITES",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "269077569",
+            "mentionable": false,
+            "position": 90,
+            "isEveryone": false
+        },
+        {
+            "name": "Statbot",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "270126169",
+            "mentionable": false,
+            "position": 89,
+            "isEveryone": false
+        },
+        {
+            "name": "Atlas",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798210485502",
+            "mentionable": false,
+            "position": 88,
+            "isEveryone": false
+        },
+        {
+            "name": "GiveawayBot",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "347200",
+            "mentionable": false,
+            "position": 87,
+            "isEveryone": false
+        },
+        {
+            "name": "ProBot ✨",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798173397183",
+            "mentionable": false,
+            "position": 86,
+            "isEveryone": false
+        },
+        {
+            "name": "Mimu",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1007021169",
+            "mentionable": false,
+            "position": 85,
+            "isEveryone": false
+        },
+        {
+            "name": "DL",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "18497",
+            "mentionable": false,
+            "position": 84,
+            "isEveryone": false
+        },
+        {
+            "name": "Simple Poll",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "347200",
+            "mentionable": false,
+            "position": 83,
+            "isEveryone": false
+        },
+        {
+            "name": "Karuta",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "379969",
+            "mentionable": false,
+            "position": 82,
+            "isEveryone": false
+        },
+        {
+            "name": "Mudae",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "537159744",
+            "mentionable": false,
+            "position": 81,
+            "isEveryone": false
+        },
+        {
+            "name": "ChannelManager",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 80,
+            "isEveryone": false
+        },
+        {
+            "name": "🔊 EN VOCAL",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 79,
+            "isEveryone": false
+        },
+        {
+            "name": "★━━━━━━━━━━━━━━Couleur━━━━━━━━━━━━━━━★",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 78,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ orange",
+            "color": "#ffb483",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 77,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ marron",
+            "color": "#9f552d",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 76,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ crème",
+            "color": "#e5d5be",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 75,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ beige",
+            "color": "#c8ad7f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 74,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ jaune",
+            "color": "#ffe263",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 73,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ rouge",
+            "color": "#ff3134",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 72,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ rose",
+            "color": "#ffbeff",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 71,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ vert",
+            "color": "#c0fc85",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 70,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ bleu",
+            "color": "#90acfa",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 69,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ violet",
+            "color": "#d78cff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 68,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ pourpre",
+            "color": "#b31230",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 67,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ bordeau",
+            "color": "#690707",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 66,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ noir",
+            "color": "#050505",
+            "hoist": false,
+            "permissions": "104287809",
+            "mentionable": false,
+            "position": 65,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ blanc",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 64,
+            "isEveryone": false
+        },
+        {
+            "name": "★━━━━━━━━━━━━━━Role perso━━━━━━━━━━━━━━━★",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 63,
+            "isEveryone": false
+        },
+        {
+            "name": "🚬・𝙎𝙡𝙖𝙮𝙚𝙧",
+            "color": "#0b0c0c",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 62,
+            "isEveryone": false
+        },
+        {
+            "name": "Noahh・🏅",
+            "color": "#ffc99d",
+            "hoist": true,
+            "permissions": "104173377",
+            "mentionable": false,
+            "position": 61,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ L’homme sans nom",
+            "color": "#a452e7",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 60,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Propriété de Lurizzonn",
+            "color": "#7acbff",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 59,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Panda ෆ",
+            "color": "#b264f5",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 58,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Yuki",
+            "color": "#e674f4",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 57,
+            "isEveryone": false
+        },
+        {
+            "name": "👑・21 Army",
+            "color": "#0c0d0e",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 56,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Amaterasu",
+            "color": "#ffd59a",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 55,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ attire les fous",
+            "color": "#6314ff",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 54,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ .gg/seiki",
+            "color": "#ffb58c",
+            "hoist": true,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 53,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Serveur Booster",
+            "color": "#f8aaff",
+            "hoist": true,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 52,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Amie",
+            "color": "#08090b",
+            "hoist": true,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 51,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Kami",
+            "color": "#ffc400",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 50,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Hiro",
+            "color": "#00d5ff",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 49,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Senshi",
+            "color": "#ff0015",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Wasabi",
+            "color": "#8dffbd",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "★━━━━━━━━━━━━━━Info perso━━━━━━━━━━━━━━━★",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 46,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Membre",
+            "color": "#f2f3f3",
+            "hoist": true,
+            "permissions": "104140353",
+            "mentionable": false,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "quarantaine",
+            "color": "#e91b05",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ bot",
+            "color": "#ffe4bb",
+            "hoist": true,
+            "permissions": "120819457",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Otaku",
+            "color": "#996cc7",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Gaming",
+            "color": "#996cc7",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Streamer",
+            "color": "#996cc7",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Dessinateur",
+            "color": "#996cc7",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Femme",
+            "color": "#f5b3ff",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Homme",
+            "color": "#a6a7ff",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Non-binaire",
+            "color": "#ff8cef",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ +18ans",
+            "color": "#ff4747",
+            "hoist": false,
+            "permissions": "104271425",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ -18ans",
+            "color": "#ff4747",
+            "hoist": false,
+            "permissions": "104271361",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ -15ans",
+            "color": "#ff4747",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "★━━━━━━━━━━━━━━Notif━━━━━━━━━━━━━━━★",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Annonces",
+            "color": "#e4b400",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ MAJ du serv",
+            "color": "#aca8a3",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Partenariats",
+            "color": "#226eb3",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Event",
+            "color": "#e65589",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Sondage",
+            "color": "#25c059",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Info Seiki",
+            "color": "#e91e63",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Vocal",
+            "color": "#ad1457",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ Partenaires",
+            "color": "#ffe95c",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "ping dead chat",
+            "color": "#a4d6f6",
+            "hoist": false,
+            "permissions": "104139841",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "carl-bot",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798181256446",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "InviteCount",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Invite Tracker",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "268822624",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "MEE6",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798038649951",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Le pote cringe irl des Fonda",
+            "color": "#114dff",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "pote cringe irl des fonda bike life",
+            "color": "#0027ff",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "ʚ le soumis d’Anna",
+            "color": "#2a2a2b",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "UnbelievaBoat",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "829811966",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "FTNL",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798240505855",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "💳・Office pass",
+            "color": "#bfabff",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "L'homme d'Anna",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "๖̶ζ͜͡ND Protect",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8798240505855",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "new role",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "Xenon",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Phonda",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "mute",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "67179521",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Mute",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "65537",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "Muted",
+            "color": "#979c9f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "Muted",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "perm image",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "49152",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2248473465835073",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743634435173,
+    "guildID": "922924284215693322",
+    "id": "77044470"
+}

@@ -1,0 +1,998 @@
+{
+    "name": "SB | TOJI",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "admin",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "x",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "connexion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "premium",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "admin",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📚・Information",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66561",
+                        "deny": "973062219955024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌴・rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📚・Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "📣・annonces",
+                        "nsfw": false,
+                        "parent": "📚・Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💎・boosts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📚・Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📬・invites",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📚・Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🗽・SB | TOJI",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66561",
+                        "deny": "973066514922320"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⚡・login",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🗽・SB | TOJI",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📊・status",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🗽・SB | TOJI",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・accès",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🗽・SB | TOJI",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❓・recover-t0kęn",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🗽・SB | TOJI",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "973062219955024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "☎・Support",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66561",
+                        "deny": "955461443976016"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫・tickets",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "☎・Support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "955461443976016"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌹・avis",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "☎・Support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "▸ Private",
+                                "allow": "330753",
+                                "deny": "1760303889182800"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "955461443976016"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🎫・Tickets",
+                "permissions": [],
+                "children": []
+            },
+            {
+                "name": "🌍・Générals",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "70506183461953",
+                        "deny": "902556036559632"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💭・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍・Générals",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "▸ Member's",
+                                "allow": "70368744177664",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": ".gg/sbtoji",
+                                "allow": "32768",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📸・médias",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍・Générals",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "70508330994753",
+                                "deny": "902553889026832"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔧・commands",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍・Générals",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "70508330945601",
+                                "deny": "902553889075984"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💡・suggestions",
+                        "nsfw": false,
+                        "rateLimitPerUser": 300,
+                        "parent": "🌍・Générals",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "330817",
+                                "deny": "973062219690768"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🃏・auto-bump",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍・Générals",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "70506183461953",
+                                "deny": "902556036559632"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📞・Vocal",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔊・vocal 1",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "📞・Vocal",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🍃・user",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "📞・Vocal",
+                        "permissions": [
+                            {
+                                "roleName": "▸ Private",
+                                "allow": "1049600",
+                                "deny": "2097152"
+                            },
+                            {
+                                "roleName": "▸ Member's",
+                                "allow": "1049600",
+                                "deny": "16"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "🔑・Private",
+                "permissions": [
+                    {
+                        "roleName": "▸ Private",
+                        "allow": "3212800",
+                        "deny": "2098966418618705"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "3146240",
+                        "deny": "973062216875345"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📋・doc",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔑・Private",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "▸ Private",
+                                "allow": "3212800",
+                                "deny": "2098966418618705"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3146240",
+                                "deny": "973062216875345"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻・update",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔑・Private",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "▸ Private",
+                                "allow": "3212800",
+                                "deny": "2098966418618705"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3146240",
+                                "deny": "973062216875345"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💭・chat²",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔑・Private",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "▸ Private",
+                                "allow": "70508334140992",
+                                "deny": "2028458087690513"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3146240",
+                                "deny": "973062216875345"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📰・Logs",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📁・logs-ticket",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📰・Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📁 ▸ LOGS・",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📝・edited-messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💣・deleted-messages",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・deleted-embeds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔁・updated-channels",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "➕・created-channels",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌・deleted-channels",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・updated-roles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔖・created-roles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎭・deleted-roles",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔨・moderation",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚪・banisements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🧬・antiraid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・bot-arrivals",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 ▸ LOGS・",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_VOICE",
+                "name": ".gg/sbtoji",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "1048576"
+                    }
+                ]
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "x",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "noleche",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2108863302074367",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "own",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "982963394707455",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "x",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Safeness",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Bot",
+            "color": "#ffffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Founder's",
+            "color": "#000001",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Prestige",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Support",
+            "color": "#edeb21",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Private",
+            "color": "#5f9dff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Friend's",
+            "color": "#b087ff",
+            "hoist": true,
+            "permissions": "3212801",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "▸ Member's",
+            "color": "#9dffca",
+            "hoist": true,
+            "permissions": "70368744181760",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": ".gg/sbtoji",
+            "color": "#e91e63",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Les goat ✨",
+            "color": "#ff00af",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "Boost",
+            "color": "#9b59b6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2222085186637377",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743634471642,
+    "guildID": "1269271728878522388",
+    "id": "85309086",
+    "iconURL": "https://cdn.discordapp.com/icons/1269271728878522388/5969c202e91241930ed687b411d49910.webp"
+}

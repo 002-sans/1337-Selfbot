@@ -1,0 +1,4099 @@
+{
+    "name": "Illégal - Diamond City RP💎",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "💎│Informations│💎",
+                "permissions": [
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌍・𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐮𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎│Informations│💎",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "📢・𝐀𝐧𝐧𝐨𝐧𝐜𝐞",
+                        "nsfw": false,
+                        "parent": "💎│Informations│💎",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "446676863040"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "134144",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137439218752",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📃・𝐑𝐞̀𝐠𝐥𝐞𝐦𝐞𝐧𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎│Informations│💎",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "66560",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚘・𝐕𝐞́𝐡𝐢𝐜𝐮𝐥𝐞𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎│Informations│💎",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "199680",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "76800",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫・𝗗𝗲𝗺𝗮𝗻𝗱𝗲-𝗗𝗲-𝗥𝗼𝗹𝗲",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎│Informations│💎",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📥・𝐓𝐢𝐜𝐤𝐞𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💎│Informations│💎",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diamond Ticket",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "66560",
+                                "deny": "133120"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "197632",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "68608",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "|・CHANNEL OUVERT・|",
+                "permissions": [
+                    {
+                        "roleName": "🎓 | Gérant illégal *",
+                        "allow": "199680",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "👤 | Citoyen",
+                        "allow": "66560",
+                        "deny": "133120"
+                    },
+                    {
+                        "roleName": "🔪 | Manager illégal *",
+                        "allow": "68608",
+                        "deny": "131072"
+                    },
+                    {
+                        "roleName": "🎓 | Responsable *",
+                        "allow": "68608",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢・𝐄𝐯𝐞𝐧𝐞𝐦𝐞𝐧𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CHANNEL OUVERT・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "199680",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Haut Gradé",
+                                "allow": "66560",
+                                "deny": "133120"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "197632",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "66560",
+                                "deny": "133120"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "199680",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢・𝐄𝐯𝐞𝐧𝐞𝐦𝐞𝐧𝐭-𝐎𝐟𝐟𝐢𝐜𝐢𝐞𝐥",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CHANNEL OUVERT・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "65536",
+                                "deny": "134144"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "66560",
+                                "deny": "137439217728"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "199680",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📸・𝐃𝐚𝐫𝐤-𝐈𝐧𝐬𝐭𝐚",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CHANNEL OUVERT・|",
+                        "topic": "CE SALON EST UNIQUEMENT DÉDIÉ AUX PHOTOS ET VIDÉOS. PAS DE PUB.",
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Illégal",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "117824",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "76800",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "207872",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "👀・𝐀𝐜𝐭𝐢𝐯𝐢𝐭𝐞́𝐬",
+                        "parent": "|・CHANNEL OUVERT・|",
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "197632",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "328768",
+                                "deny": "274878040064"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "66560",
+                                "deny": "133120"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎬・𝐂𝐥𝐢𝐩",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CHANNEL OUVERT・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "117760",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💡・𝐒𝐮𝐠𝐠𝐞𝐬𝐭𝐢𝐨𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 1800,
+                        "parent": "|・CHANNEL OUVERT・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "65536",
+                                "deny": "183296"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "199680",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "GROUPES OFFICIEL",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "🔪 | Chef",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🔪 | Manager illégal *",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🎓 | Responsable *",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🎓 | Gérant illégal *",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢・𝐀𝐧𝐧𝐨𝐧𝐜𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "GROUPES OFFICIEL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🔪 | Haut Gradé",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "1051648",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "1051648",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📞・𝐑𝐞́𝐮𝐧𝐢𝐨𝐧",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "GROUPES OFFICIEL",
+                        "permissions": [
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "36701696",
+                                "deny": "39582418599936"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "1024",
+                                "deny": "3146240"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "66061824",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🔪 | Haut Gradé",
+                                "allow": "36701696",
+                                "deny": "39582418599936"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "66061824",
+                                "deny": "39582418599936"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👑・𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧-𝐂𝐡𝐞𝐟",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "GROUPES OFFICIEL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "199680",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "199680",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📞・𝐕𝐨𝐜𝐚𝐥-𝐋𝐞𝐚𝐝",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "GROUPES OFFICIEL",
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "66560",
+                                "deny": "3279360"
+                            },
+                            {
+                                "roleName": "🔪 | Chef",
+                                "allow": "36701696",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "199680",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "|・CARTEL・|",
+                "permissions": [
+                    {
+                        "roleName": "🎓 | Gérant illégal *",
+                        "allow": "76800",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "👤 | Citoyen",
+                        "allow": "66560",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "🔪 | Manager illégal *",
+                        "allow": "68608",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🎓 | Responsable *",
+                        "allow": "76800",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌿・𝐂𝐚𝐫𝐭𝐞𝐥-𝐝𝐞-𝐂𝐚𝐲𝐨",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CARTEL・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🌿 | Cartel de Cayo",
+                                "allow": "52224",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "76800",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "76800",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "Je cherche du taff",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            },
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "Je cherche du taff",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            },
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "J’aimerais me faire recruter",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "|・ORGANISATION・|",
+                "permissions": [
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🐊・𝐋𝐚𝐬-𝐎𝐦𝐛𝐫𝐚𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・ORGANISATION・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🐊 | Las Ombras",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "Las ombras",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            },
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "Je cherche du taff",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🧪・𝟕𝟕𝟕-𝐇𝐮𝐬𝐭𝐥𝐞𝐫",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・ORGANISATION・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🧪| 777 Hustler",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🉐・𝐘𝐚𝐤𝐮𝐳𝐚",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・ORGANISATION・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🉐| Yakuza",
+                                "allow": "3136",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏴・𝐒𝐜𝐡𝐚𝐝𝐮𝐰-𝐒𝐲𝐧𝐝𝐢𝐜𝐚𝐚𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・ORGANISATION・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🏴| Schaduw-Syndicaat",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "|・MAFIA・|",
+                "permissions": [
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔱・𝐒𝐢𝐜𝐢𝐥𝐢𝐚-𝐔𝐧𝐢𝐭𝐚",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・MAFIA・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "🔱 | Sicilia Unita",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🥀・𝐒𝐞𝐜𝐫𝐞𝐭-𝐎𝐟-𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・MAFIA・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🥀 | Secret Of Business",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👑・𝐋𝐚-𝐄𝐌𝐄",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・MAFIA・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "👑 | La EmE",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [
+                            {
+                                "type": "GUILD_PUBLIC_THREAD",
+                                "name": "Je cherche du taff",
+                                "archived": false,
+                                "autoArchiveDuration": 4320,
+                                "locked": false,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "|・FAMILLE・|",
+                "permissions": [
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🩸・𝐂𝐨𝐬𝐚-𝐏𝐮𝐜𝐜𝐢",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・FAMILLE・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🩸 | Cosa Pucci",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "|・CLUB MC・|",
+                "permissions": [
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦅・𝐓𝐡𝐞-𝐋𝐨𝐬𝐭-𝐌𝐂",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CLUB MC・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🦅 | The Lost MC",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦇・𝐂𝐞𝐫𝐛𝐞𝐫𝐮𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CLUB MC・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🦇 | Cerberus",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💀・𝐀𝐧𝐠𝐞𝐥-𝐨𝐟-𝐃𝐞𝐚𝐭𝐡",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・CLUB MC・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💀| Angel of Death",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "|・GANG・|",
+                "permissions": [
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💢・𝐀𝐳𝐭𝐞𝐜𝐚𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💢 | Aztecas",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔪・𝟒𝟏𝟎𝐓𝐇",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "🔪 | 410Th",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦜・𝐋𝐨𝐬-𝐈𝐫𝐦𝐚𝐨",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🦜| Los Irmao",
+                                "allow": "3136",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💔・𝐁𝐥𝐨𝐨𝐝𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💔 | Bloods",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💛・𝐕𝐚𝐠𝐨𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💛 | Vagos",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💜・𝐁𝐚𝐥𝐥𝐚𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "💜| Ballas",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💚・𝐅𝐚𝐦𝐢𝐥𝐢𝐞𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "💚| Families",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💙・𝐌𝐚𝐫𝐚-𝐌𝐚𝐥𝐝𝐢𝐭𝐚",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GANG・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💙| Mara Maldita",
+                                "allow": "3072",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "|・GROUPE ACCEPTé ・|",
+                "permissions": [
+                    {
+                        "roleName": "Ticket Tool",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "⚔️ | Gérant Discord *",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🎓 | Responsable *",
+                        "allow": "268504080",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "🔪 | Manager illégal *",
+                        "allow": "268553280",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "BOT",
+                        "allow": "268438544",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "🎓 | Gérant illégal *",
+                        "allow": "137707908176",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・𝐑𝐚𝐩𝐩𝐞𝐥",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧-𝐒𝐓𝐀𝐅𝐅",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyen",
+                                "allow": "65536",
+                                "deny": "134144"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "68608",
+                                "deny": "131072"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "199680",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌-east-side",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔒・𝐆𝐀𝐍𝐆",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-aztecas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-410th",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅bloods",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅irmao",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅vagos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-f4l",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅ballas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-mara-maldita",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-oblock",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔒・𝐎𝐑𝐆𝐀𝐍𝐈𝐒𝐀𝐓𝐈𝐎𝐍",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-777-hustler",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅sicilia-unita",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅cayo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-sob",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅la-eme",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅las-sombras",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅cosa-pucci",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅yakuzas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-schaduw-syndicaat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔒・𝗠𝗖",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-lost-mc",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-cerberus",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✅-aod",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "|・GROUPE ACCEPTé ・|",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "🎓 | Gérant illégal *",
+                                "allow": "137707908176",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "⚔️ | Gérant Discord *",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "🎓 | Responsable *",
+                                "allow": "268504080",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Non validé",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🔪 | Manager illégal *",
+                                "allow": "268553280",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "BOT",
+                                "allow": "268438544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Ticket Tool",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Non validé",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "vérification",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "Remplissez le captcha afin d'accéder à la totalité du serveur !",
+                "permissions": [
+                    {
+                        "roleName": "👤 | Citoyen",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66560",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "BOT",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": [
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "n’",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "AZDQSW",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verifi",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Rôle svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "wassupppp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Role eme",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "role pour le dark insta pls les frr",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Vérification pour le insta le bg car ça fait un petit moment que j’attends, mais j’ai toujours rien",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "bonsoir possible d’avoir les rôle illégal svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif avec screen",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Ee",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Svp rôle",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "e",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Rôle dark insta svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Salem",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Holà",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Bienvenue sur Illégal - Diamond City RP...",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Accès au darck insta",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "eolz citoyen svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Pour le dark insta",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Accès",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Dark",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "hoollz",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Citoyen",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Vrief",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "demande role illègal",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "svp role",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Svp rôle",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Rôle citoyen svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Je peux avoir les rôle svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "7teype",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif marche stpl zbi sa fsit 13 foi",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "N",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Role Illégal",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "VERIF",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Accès",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Rôle Citoyen pls",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "role las",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Bienvenue sur Illégal - Diamond City RP...",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Cc",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Verif pour dark insta (js lost)",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "HL2A30",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Ouais",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Question",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "h",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "….",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Sava ?",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Bienvenue sur Illégal - Diamond City RP...",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "rôle svpµ",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Demande rôle",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Soso",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "1",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "rôle svp ?",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "1HS",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "cc",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "role svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "hello",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "VERIF",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Cc",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Vérif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "HL2A3P",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Oui Oui !!",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Vérifie",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "WM7A1F",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "??",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Roles citoyen svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Rôle svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "n",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "verif",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "A",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Role illegal",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Pour le dark insta svp",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": ".",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    },
+                    {
+                        "type": "GUILD_PUBLIC_THREAD",
+                        "name": "Vérifie",
+                        "archived": false,
+                        "autoArchiveDuration": 4320,
+                        "locked": false,
+                        "rateLimitPerUser": 0,
+                        "messages": []
+                    }
+                ]
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "BOT",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "=========================",
+            "color": "#0e0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "👑 | Fondateur",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "⚔️ | Gérant Discord *",
+            "color": "#050404",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "🎓 | Responsable *",
+            "color": "#050404",
+            "hoist": true,
+            "permissions": "19789330120647",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "🎓 | Gérant illégal *",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "19789598162881",
+            "mentionable": true,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "🔪 | Manager illégal *",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "19789329727297",
+            "mentionable": true,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "=========================",
+            "color": "#050303",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "🌿 | Cartel de Cayo",
+            "color": "#0b3f02",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "🔱 | Sicilia Unita",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "🥀 | Secret Of Business",
+            "color": "#4b0404",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "👑 | La EmE",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "🩸 | Cosa Pucci",
+            "color": "#ee0b0b",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "🧪| 777 Hustler",
+            "color": "#1abc9c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "🏴| Schaduw-Syndicaat",
+            "color": "#050505",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "=========================",
+            "color": "#030000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "🦇 | Cerberus",
+            "color": "#0c0b0b",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "🦅 | The Lost MC",
+            "color": "#311a02",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "💀| Angel of Death",
+            "color": "#747070",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "=========================",
+            "color": "#0a0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "🐊 | Las Ombras",
+            "color": "#06740e",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "💢 | Aztecas",
+            "color": "#992d22",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "🔪 | 410Th",
+            "color": "#3b3535",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "💔 | Bloods",
+            "color": "#f10606",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "💛 | Vagos",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "💚| Families",
+            "color": "#49ad08",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "💜| Ballas",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "🉐| Yakuza",
+            "color": "#d40404",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "🦜| Los Irmao",
+            "color": "#a89512",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "💙| Mara Maldita",
+            "color": "#07067e",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "====================================================================================================",
+            "color": "#0e0b0b",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "🔪 | Chef",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "🔪 | Haut Gradé",
+            "color": "#0c0606",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "🔪 | Illégal",
+            "color": "#0c0c0c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "=========================",
+            "color": "#020000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "👤 | Citoyen",
+            "color": "#03f8f8",
+            "hoist": true,
+            "permissions": "6546640449",
+            "mentionable": true,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "Non validé",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "2221947747683905",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1096047840841281",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743973620830,
+    "guildID": "896002185882664990",
+    "id": "52964189",
+    "iconURL": "https://cdn.discordapp.com/icons/896002185882664990/e7f3646a6ebae374949c054c8dc2dc75.webp"
+}

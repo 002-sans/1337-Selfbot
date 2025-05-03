@@ -1,0 +1,2346 @@
+{
+    "name": "Embed・Help Portal",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "🏠 Home",
+                "permissions": [
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "2099264"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "discord.gg/embed",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🏠 Home",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🏠 Home",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66561",
+                                "deny": "377957124096"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🕒 Tempo",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "137439317057",
+                        "deny": "378762444816"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "announcement",
+                        "nsfw": false,
+                        "parent": "🕒 Tempo",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "137439315009",
+                                "deny": "378762446864"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": [
+                            {
+                                "type": "GUILD_NEWS_THREAD",
+                                "name": "🇫🇷 Version",
+                                "archived": false,
+                                "autoArchiveDuration": 1440,
+                                "locked": true,
+                                "rateLimitPerUser": 0,
+                                "messages": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Lounge",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🕒 Tempo",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "137439317057",
+                                "deny": "378762444816"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🕒 Tempo",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "137439331393",
+                                "deny": "378762428432"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Lounge",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "🕒 Tempo",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "137439317057",
+                                "deny": "378762444816"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "🔎 Information",
+                "permissions": [
+                    {
+                        "roleName": "Members",
+                        "allow": "1049600",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "announcements",
+                        "nsfw": false,
+                        "parent": "🔎 Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "datamine",
+                        "nsfw": false,
+                        "parent": "🔎 Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "bot",
+                                "allow": "1795419542125649",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "giveaways",
+                        "nsfw": false,
+                        "parent": "🔎 Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "partner",
+                        "nsfw": false,
+                        "parent": "🔎 Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🪄 Discord Information",
+                "permissions": [
+                    {
+                        "roleName": "Members",
+                        "allow": "1049600",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1051648"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "2099264"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "discord-programs",
+                        "parent": "🪄 Discord Information",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "discord-news",
+                        "nsfw": false,
+                        "parent": "🪄 Discord Information",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "discord-servers",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🪄 Discord Information",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "discord-badges",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🪄 Discord Information",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📞 Support",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "274877907968",
+                        "deny": "1050624"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Support vc",
+                        "bitrate": 64000,
+                        "userLimit": 1,
+                        "parent": "📞 Support",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "support",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📞 Support",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877907968",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🌐 Community",
+                "permissions": [
+                    {
+                        "roleName": "Members",
+                        "allow": "274878956544",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "274877906944",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "general",
+                        "nsfw": false,
+                        "rateLimitPerUser": 2,
+                        "parent": "🌐 Community",
+                        "topic": "Welcome to the general chat channel. Before posting in this channel, please consider the chat rules. <#1348269811632705547>\n\nSi vous parler français merci de vous rendre dans le fils \"français-only\" pour ne pas perturber le chat anglophone",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "274878956544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877906944",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "media",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌐 Community",
+                        "topic": "<:discotoolsxyzicon:1353425895632670793> If you want to send us an image it’s here and not on the chat !",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "274878956544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877906944",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "commands",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌐 Community",
+                        "topic": "<:e_coding:1353425517277085727> Commands panel-only of the server, conversation are not allowed in this channel",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "274878956544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "277025390592",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "suggestion",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "🌐 Community",
+                        "topic": "<:discotoolsxyzicon:1353425895632670793> Do you have a suggestion for the server? This room is made for that, don't hesitate to check the reactions to vote!",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "creation",
+                        "parent": "🌐 Community",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "274878956544",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274877906944",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "counting",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "🌐 Community",
+                        "topic": "<:discotoolsxyzicon:1353429973200801875> Do you know how to count? Then don't stop!",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🔗 Help portal",
+                "permissions": [
+                    {
+                        "roleName": "help editing",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "help server",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "help developement",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "help school",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    },
+                    {
+                        "roleName": "help networks",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "help gaming",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "help graphiste",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "graphisme",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "server",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "networks",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "developement",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "school",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "gaming",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "editing",
+                        "parent": "🔗 Help portal",
+                        "permissions": [
+                            {
+                                "roleName": "help editing",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help server",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help developement",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help school",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "help networks",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "help gaming",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "help graphiste",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "➕ Voice channel",
+                "permissions": [
+                    {
+                        "roleName": "Members",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Lounge",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "➕ Voice channel",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Gaming",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "➕ Voice channel",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Coding",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "➕ Voice channel",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Admins",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "➕ Voice channel",
+                        "permissions": [
+                            {
+                                "roleName": "Members",
+                                "allow": "1024",
+                                "deny": "1048576"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "CM",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "🪄 Embed Team",
+                "permissions": [
+                    {
+                        "roleName": "Young Graphic designer",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Propriétaire",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Modo",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    },
+                    {
+                        "roleName": "Official Graphic designer",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Young Developer",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Manager Graphic designer",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Official Developer",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Manager Déveloper",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Admin",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "talk",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🪄 Embed Team",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "Young Graphic designer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Propriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Official Graphic designer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Young Developer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager Graphic designer",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Official Developer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Manager Déveloper",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "announcements",
+                        "nsfw": false,
+                        "parent": "🪄 Embed Team",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "Young Graphic designer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Propriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Official Graphic designer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager Graphic designer",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager Déveloper",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Official Developer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Young Developer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🪄 Embed Team",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Manager Graphic designer",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Propriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "2099264"
+                            },
+                            {
+                                "roleName": "Official Graphic designer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Manager Déveloper",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Young Developer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Official Developer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Young Graphic designer",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📁 Logs",
+                "permissions": [
+                    {
+                        "roleName": "Co-Popriétaire",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Modo",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    },
+                    {
+                        "roleName": "Admin",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "automod",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "moderation-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "voice-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "messages-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "boost-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "roles-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "raid-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "discord-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📁 Logs",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Modo",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Co-Popriétaire",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Muet",
+                                "allow": "0",
+                                "deny": "377959221312"
+                            },
+                            {
+                                "roleName": "Admin",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_NEWS",
+                "name": "no-delet",
+                "nsfw": false,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "2099264"
+                    }
+                ],
+                "messages": [],
+                "isNews": true,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "team",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Muet",
+                        "allow": "0",
+                        "deny": "377959221312"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "admin",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 58,
+            "isEveryone": false
+        },
+        {
+            "name": "bot",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 57,
+            "isEveryone": false
+        },
+        {
+            "name": "Propriétaire",
+            "color": "#3b9cff",
+            "hoist": true,
+            "permissions": "27497887048848",
+            "mentionable": false,
+            "position": 56,
+            "isEveryone": false
+        },
+        {
+            "name": "Co-Popriétaire",
+            "color": "#206694",
+            "hoist": true,
+            "permissions": "1100883165312",
+            "mentionable": false,
+            "position": 55,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Pole Moderation ▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 54,
+            "isEveryone": false
+        },
+        {
+            "name": "Admin",
+            "color": "#00fdc6",
+            "hoist": true,
+            "permissions": "1118063632512",
+            "mentionable": false,
+            "position": 53,
+            "isEveryone": false
+        },
+        {
+            "name": "Modo",
+            "color": "#00f351",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 52,
+            "isEveryone": false
+        },
+        {
+            "name": "CM",
+            "color": "#e74c3c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 51,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬ Pole Graphiste ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 50,
+            "isEveryone": false
+        },
+        {
+            "name": "Manager Graphic designer",
+            "color": "#ffd8a6",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 49,
+            "isEveryone": false
+        },
+        {
+            "name": "Official Graphic designer",
+            "color": "#ffb555",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "Young Graphic designer",
+            "color": "#ff9500",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Pole Developpeur ▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 46,
+            "isEveryone": false
+        },
+        {
+            "name": "Manager Déveloper",
+            "color": "#b3ffab",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "Official Developer",
+            "color": "#7dff68",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "Young Developer",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Pole Communauté ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "Embed Help Portal",
+            "color": "#000000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "Advise",
+            "color": "#4740a7",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "VIP",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "Partner",
+            "color": "#5865f2",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "OG",
+            "color": "#534ea2",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "Members",
+            "color": "#c5f1f3",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "Muet",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Pole Notifictaion ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "GIveaways",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Annonce",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "Discord New's",
+            "color": "#ffffff",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Language ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "〃Français",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "〃English",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Pole Niveau ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +100",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +90",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +80",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +70",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +50",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +25",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "〃 +10",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "〃+1",
+            "color": "#ff93f1",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Pole Aide ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "help graphiste",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "help networks",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "help server",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "help developement",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "help editing",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "help gaming",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "help school",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "▬▬▬▬▬ Bot ▬▬▬▬▬",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "181011500879425",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743634452228,
+    "guildID": "1348026731176525874",
+    "id": "51147966",
+    "iconURL": "https://cdn.discordapp.com/icons/1348026731176525874/a_b5ffe9766a4a18c8e13e4ec8d5e295de.gif",
+    "splashURL": "https://cdn.discordapp.com/splashes/1348026731176525874/df9e47a18816c54c3084bbf17314aa46.webp",
+    "bannerURL": "https://cdn.discordapp.com/banners/1348026731176525874/645528e974d89857435de1a22348f8b5.webp"
+}

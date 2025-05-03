@@ -1,0 +1,1782 @@
+{
+    "name": "Légal 👔 - Meta World",
+    "verificationLevel": "VERY_HIGH",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "🌍┇Légal Meta World",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "✉・𝐢𝐧𝐯𝐢𝐭𝐚𝐭𝐢𝐨𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍┇Légal Meta World",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🛬・𝐚𝐫𝐫𝐢𝐯𝐞́",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍┇Légal Meta World",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎀・𝐛𝐨𝐨𝐬𝐭𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🌍┇Légal Meta World",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📗┇Citoyens",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "📞 | Staff",
+                        "allow": "3073",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "👤 | Citoyens",
+                        "allow": "68609",
+                        "deny": "35165044752"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📣・𝐀𝐧𝐧𝐨𝐧𝐜𝐞𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📗┇Citoyens",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "66561",
+                                "deny": "35165046800"
+                            },
+                            {
+                                "roleName": "👔 | Resp Légal",
+                                "allow": "453696",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫・𝐃𝐞𝐦𝐚𝐧𝐝𝐞-𝐝𝐞-𝐫𝐨̂𝐥𝐞𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📗┇Citoyens",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1051648",
+                                "deny": "64"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧-𝐇𝐑𝐏",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📗┇Citoyens",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "📞 | Staff",
+                                "allow": "3073",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "68609",
+                                "deny": "35165044752"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏢・𝐑𝐞𝐜𝐡𝐞𝐫𝐜𝐡𝐞-𝐞𝐧𝐭𝐫𝐞𝐩𝐫𝐢𝐬𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📗┇Citoyens",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "📞 | Staff",
+                                "allow": "3073",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "66561",
+                                "deny": "35165046800"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "3073",
+                                "deny": "805306384"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "📌┇Support",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📩・𝐓𝐢𝐜𝐤𝐞𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌┇Support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔊・𝟏 𝐜𝐨𝐧𝐯𝐨𝐜𝐚𝐭𝐢𝐨𝐧",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "📌┇Support",
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎟・𝐂𝐨𝐧𝐯𝐨𝐜𝐚𝐭𝐢𝐨𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📌┇Support",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1049600",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔊・𝟐 𝐜𝐨𝐧𝐯𝐨𝐜𝐚𝐭𝐢𝐨𝐧𝐬",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "📌┇Support",
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔊・𝟑 𝐜𝐨𝐧𝐯𝐨𝐜𝐚𝐭𝐢𝐨𝐧𝐬",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "📌┇Support",
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "💼┇Job",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⌛・𝐏𝐫𝐨𝐜𝐞́𝐝𝐮𝐫𝐞-𝐝𝐞-𝐫𝐞𝐩𝐫𝐢𝐬𝐞-𝐚-𝐟𝐚𝐢𝐫𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💼┇Job",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📜・𝐥𝐢𝐬𝐭𝐞𝐬-𝐞𝐧𝐭𝐫𝐞𝐩𝐫𝐢𝐬𝐞𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💼┇Job",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📜・𝐥𝐢𝐬𝐭𝐞-𝐝𝐞𝐬-𝐩𝐚𝐭𝐫𝐨𝐧𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "💼┇Job",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "🔎┇Discord Entreprises",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔧・𝐁𝐞𝐧𝐧𝐲𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "💼 | Employés",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔧・𝐋𝐬-𝐜𝐮𝐬𝐭𝐨𝐦",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "💼 | Employés",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💰・𝐆𝐫𝐮𝐩𝐞-𝟔",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚗・𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞-𝐯𝐨𝐢𝐭𝐮𝐫𝐞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚕・𝐓𝐚𝐱𝐢",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🚕 | 𝐑𝐞𝐜𝐫𝐮𝐭𝐞𝐮𝐫 𝐓𝐚𝐱𝐢",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🛵・𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞-𝐌𝐨𝐭𝐨",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎥・𝐖𝐞𝐚𝐳𝐞𝐥-𝐧𝐞𝐰𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔫・𝐀𝐦𝐦𝐮𝐧𝐚𝐭𝐢𝐨𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏠・𝐀𝐠𝐞𝐧𝐜𝐞-𝐈𝐦𝐦𝐨",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍔・𝐁𝐮𝐫𝐠𝐞𝐫-𝐒𝐡𝐨𝐭",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍕・𝐏𝐢𝐳𝐳𝐞𝐫𝐢𝐚",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍷・𝐔𝐧𝐢𝐜𝐨𝐫𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍸・𝐁𝐚𝐡𝐚𝐦𝐚𝐬",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🥂・𝐓𝐞𝐪𝐮𝐢𝐥𝐚",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏪・𝐋𝐓𝐃",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🍇・𝐕𝐢𝐠𝐧𝐞𝐫𝐨𝐧",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌭・𝐒𝐧𝐚𝐜𝐤",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "🔎┇Discord Entreprises",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "x",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "🌭 | Patron Snack",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "👤 | Citoyens",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "💼 | Patron",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Bureau légal",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "reprise en cours",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "en cours",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "fermés",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": []
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "rules",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "vérification",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": "Remplissez le captcha afin d'accéder à la totalité du serveur !",
+                "permissions": [
+                    {
+                        "roleName": "x",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "ticket-0011",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "👔 | Assistant Légal",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "👔 | Resp Légal",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "📞 | Staff",
+                        "allow": "3072",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "x",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": ".",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 81,
+            "isEveryone": false
+        },
+        {
+            "name": "Protect",
+            "color": "#992d22",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 80,
+            "isEveryone": false
+        },
+        {
+            "name": "👑 | Fondateur",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 77,
+            "isEveryone": false
+        },
+        {
+            "name": "🎓 | Réferent",
+            "color": "#000001",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 76,
+            "isEveryone": false
+        },
+        {
+            "name": "D | Dev",
+            "color": "#1000ff",
+            "hoist": false,
+            "permissions": "2108863234965503",
+            "mentionable": false,
+            "position": 75,
+            "isEveryone": false
+        },
+        {
+            "name": "👔 | Resp Légal",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 74,
+            "isEveryone": false
+        },
+        {
+            "name": "👔 | Assistant Légal",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "275213454364",
+            "mentionable": false,
+            "position": 73,
+            "isEveryone": false
+        },
+        {
+            "name": "🔰 | Administrateur",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 72,
+            "isEveryone": false
+        },
+        {
+            "name": "📞 | Staff",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "8797172018194",
+            "mentionable": false,
+            "position": 71,
+            "isEveryone": false
+        },
+        {
+            "name": "🤵 | Gouvernement",
+            "color": "#546e7a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 70,
+            "isEveryone": false
+        },
+        {
+            "name": "🚔 | LSPD",
+            "color": "#4718a5",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 69,
+            "isEveryone": false
+        },
+        {
+            "name": "🚑 | EMS",
+            "color": "#e26868",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 68,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧 | Ls Custom",
+            "color": "#607d8b",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 67,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧 | Benny's",
+            "color": "#546e7a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 66,
+            "isEveryone": false
+        },
+        {
+            "name": "🏍 | Concessionnaire moto",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 65,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖 | Bot",
+            "color": "#607d8b",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 64,
+            "isEveryone": false
+        },
+        {
+            "name": "💼 | Employés",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 63,
+            "isEveryone": false
+        },
+        {
+            "name": "💰| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐆𝐫𝐮𝐩𝐞 𝟔",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 62,
+            "isEveryone": false
+        },
+        {
+            "name": "💰| 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐆𝐫𝐮𝐩𝐞 𝟔",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 61,
+            "isEveryone": false
+        },
+        {
+            "name": "💰| 𝐂𝐡𝐞𝐟 𝐮𝐧𝐢𝐭𝐞 𝐆𝐫𝐮𝐩𝐞 𝟔",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 60,
+            "isEveryone": false
+        },
+        {
+            "name": "💰| 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐦𝐞𝐧𝐭 𝐆𝐫𝐮𝐩𝐞 𝟔",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 59,
+            "isEveryone": false
+        },
+        {
+            "name": "💰| 𝐑𝐇 𝐆𝐫𝐮𝐩𝐞 𝟔",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 58,
+            "isEveryone": false
+        },
+        {
+            "name": "💰| 𝐆𝐫𝐮𝐩𝐞 𝟔",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 57,
+            "isEveryone": false
+        },
+        {
+            "name": "🚗 | 𝐏𝐚𝐭𝐫𝐨𝐧 𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞 𝐯𝐨𝐢𝐭𝐮𝐫𝐞",
+            "color": "#940d0d",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 55,
+            "isEveryone": false
+        },
+        {
+            "name": "🚗 | 𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞 𝐯𝐨𝐢𝐭𝐮𝐫𝐞",
+            "color": "#940d0d",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 54,
+            "isEveryone": false
+        },
+        {
+            "name": "🚗 | 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞 𝐯𝐨𝐢𝐭𝐮𝐫𝐞",
+            "color": "#940d0d",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 53,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐋𝐬 𝐜𝐮𝐬𝐭𝐨𝐦",
+            "color": "#e74c3c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 52,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧| 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐋𝐬 𝐜𝐮𝐬𝐭𝐨𝐦",
+            "color": "#e74c3c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 51,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧| 𝐋𝐬 𝐜𝐮𝐬𝐭𝐨𝐦",
+            "color": "#e74c3c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 50,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧 | 𝐏𝐚𝐭𝐫𝐨𝐧 𝐁𝐞𝐧𝐧𝐲'𝐬",
+            "color": "#546e7a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 49,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧 | 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐁𝐞𝐧𝐧𝐲'𝐬",
+            "color": "#546e7a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "🔧 | 𝐁𝐞𝐧𝐧𝐲'𝐬",
+            "color": "#546e7a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "🚕 | 𝐏𝐚𝐭𝐫𝐨𝐧 𝐓𝐚𝐱𝐢",
+            "color": "#f8c401",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 46,
+            "isEveryone": false
+        },
+        {
+            "name": "🚕 | 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐓𝐚𝐱𝐢",
+            "color": "#f8c401",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "🚕 | 𝐑𝐞𝐜𝐫𝐮𝐭𝐞𝐮𝐫 𝐓𝐚𝐱𝐢",
+            "color": "#f8c401",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "🚕 | 𝐓𝐚𝐱𝐢",
+            "color": "#f8c401",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "🥂 | 𝐏𝐚𝐭𝐫𝐨𝐧 𝐓𝐞𝐪𝐮𝐢𝐥𝐚𝐥𝐚",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "🥂 | 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐓𝐞𝐪𝐮𝐢𝐥𝐚𝐥𝐚",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "🥂 | 𝐓𝐞𝐪𝐮𝐢𝐥𝐚𝐥𝐚",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "🍇 | 𝐏𝐚𝐭𝐫𝐨𝐧 𝐕𝐢𝐠𝐧𝐞𝐫𝐨𝐧",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "🍇 | Co-Patron Vigneron",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "🍇 | Vigneron",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "🍕| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐏𝐢𝐳𝐳𝐞𝐫𝐢𝐚",
+            "color": "#a59c49",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "🍕| 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐏𝐢𝐳𝐳𝐞𝐫𝐢𝐚",
+            "color": "#a59c49",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "🍕| 𝐏𝐢𝐳𝐳𝐞𝐫𝐢𝐚",
+            "color": "#a59c49",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "🍔| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐁𝐮𝐫𝐠𝐞𝐫 𝐒𝐡𝐨𝐭",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "🍔| 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐁𝐮𝐫𝐠𝐞𝐫 𝐒𝐡𝐨𝐭",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "🍔| 𝐁𝐮𝐫𝐠𝐞𝐫 𝐒𝐡𝐨𝐭",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "🏍️| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞 𝐦𝐨𝐭𝐨",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "🏍️| 𝐂𝐨-𝐏𝐚𝐭𝐫𝐨𝐧 𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞 𝐦𝐨𝐭𝐨",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "🏍️| 𝐂𝐨𝐧𝐜𝐞𝐬𝐬𝐢𝐨𝐧𝐧𝐚𝐢𝐫𝐞 𝐌𝐨𝐭𝐨",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "🔫| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐚𝐦𝐦𝐮𝐧𝐚𝐭𝐢𝐨𝐧",
+            "color": "#3a0101",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "🔫| 𝐂𝐨 𝐏𝐚𝐭𝐫𝐨𝐧 𝐀𝐦𝐦𝐮𝐧𝐚𝐭𝐢𝐨𝐧",
+            "color": "#3a0101",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "🔫| 𝐀𝐦𝐦𝐮𝐧𝐚𝐭𝐢𝐨𝐧",
+            "color": "#3a0101",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "🔫| 𝐑𝐮𝐧𝐧𝐞𝐫 𝐀𝐦𝐮𝐧𝐧𝐚𝐭𝐢𝐨𝐧",
+            "color": "#3a0101",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 | 𝐏𝐚𝐭𝐫𝐨𝐧 𝐖𝐞𝐚𝐳𝐞𝐥 𝐍𝐞𝐰𝐬",
+            "color": "#070000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 | 𝐂𝐨 𝐏𝐚𝐭𝐫𝐨𝐧 𝐖𝐞𝐚𝐳𝐞𝐥 𝐍𝐞𝐰𝐬",
+            "color": "#070000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "🎥 | 𝐖𝐞𝐚𝐳𝐞𝐥 𝐍𝐞𝐰",
+            "color": "#070000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "🏪| 𝐏𝐚𝐭𝐫𝐨𝐧 𝐋𝐓𝐃",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "🏪| 𝐂𝐨 𝐏𝐚𝐭𝐫𝐨𝐧 𝐋𝐓𝐃",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "🏪| LTD",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "🏢 | Patron agence immobilière",
+            "color": "#95a5a6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "🏢 | Co Patron agence immobilière",
+            "color": "#95a5a6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "🏢 | Agence immobilière",
+            "color": "#95a5a6",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "🌭 | Patron Snack",
+            "color": "#e67e22",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "🌭 | Co-Patron Snack",
+            "color": "#e67e22",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "🌭 | Snack",
+            "color": "#e67e22",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "💼 | Patron",
+            "color": "#1f8b4c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "👤 | Citoyens",
+            "color": "#00f1ff",
+            "hoist": true,
+            "permissions": "67175425",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "👤| cyber",
+            "color": "#3498db",
+            "hoist": true,
+            "permissions": "2108863301550079",
+            "mentionable": true,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "🤖| BOT",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": "2108859006582783",
+            "mentionable": true,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "x",
+            "color": "#ee0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1125899906908160",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1743973523190,
+    "guildID": "1215385902042452079",
+    "id": "35825160",
+    "iconURL": "https://cdn.discordapp.com/icons/1215385902042452079/12a52878c516077c97c4a3d658bff47b.webp"
+}
