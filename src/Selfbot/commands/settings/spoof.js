@@ -25,16 +25,12 @@ module.exports = {
         client.options.ws.properties.os      = infos[args[0]].os
         client.options.ws.properties.browser = infos[args[0]].browser
 
-        message.edit("***Le changement de votre plateforme est en cours...***");
+        message.delete();
 
         client.db.platform = args[0];
         client.save();
 
-        const token = client.token;
-
-        client.destroy();
-        await client.login(token);
-
-        message.delete().catch(() => false);
+        client.load(client.token);
+        return client.destroy();
     }
 };
