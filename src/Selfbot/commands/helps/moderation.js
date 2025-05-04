@@ -14,7 +14,7 @@ module.exports = {
         let separation = 0;
         
         for (const file of client.commands.filter(c => c.dir == page).values()) {
-            const { name, usage = '' } = require(`../${page}/${file.name}`);
+            const { name, usage = '' } = client.commands.find(c => c.name == file.name);
             const length = " » ".length + client.db.prefix.length + name.length + usage.length;
             if (!separation || separation < length) separation = length;
         }
