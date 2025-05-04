@@ -25,7 +25,7 @@ module.exports = {
         client.options.ws.properties.os      = infos[args[0]].os
         client.options.ws.properties.browser = infos[args[0]].browser
 
-        message.delete();
+        await message.delete();
 
         client.db.platform = args[0];
         client.save();
