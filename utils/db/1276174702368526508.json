@@ -27,10 +27,25 @@
         "wl": []
     },
     "rpc": {
-        "status": true,
-        "name": "❄",
-        "type": 5
+        "name": "Code",
+        "type": 0,
+        "details": "No Workspace - 0 problems found",
+        "state": "Working on HEX.js - 13:37",
+        "assets": {
+            "large_image": "mp:external/TYmZpqSy14Pd-zjpgTaxFC5t8JgsbV2SEqOFLoZH6gg/https/i.postimg.cc/Y23PMGwZ/js.png",
+            "small_image": "mp:external/aH-YX-4uAscoOjdRerxs7WZPodpnb_0n4PfzsrGzPeo/https/i.postimg.cc/L8yS6q3T/t-l-chargesdsfdment-removebg-preview.png",
+            "small_text": "Visual Studio Code",
+            "large_text": "Editing a JS file"
+        },
+        "status": false
     },
+    "setgame": {
+        "status": false
+    },
+    "spotify": {
+        "status": false
+    },
+    "custom": {},
     "antiraid": {
         "antispam": {
             "etat": true,
@@ -129,6 +144,7 @@
     "tempvoc": [],
     "soutien": [],
     "piconly": [],
+    "multirpc": [],
     "autorole": [],
     "autoreact": [],
     "bl": []
