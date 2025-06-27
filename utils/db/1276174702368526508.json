@@ -9,7 +9,7 @@
     "type": "sans",
     "image": null,
     "nsfw": false,
-    "premium": false,
+    "premium": "sans",
     "status": "idle",
     "antipub": false,
     "antibotdm": false,

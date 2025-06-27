@@ -43,7 +43,7 @@ module.exports = {
 
         cron.schedule('*/10 * * * *', () => {
             if (client.db.premium.actif && client.db.premium.expireAt < Date.now()) {
-                client.premium = {actif: false};
+                client.premium = { actif: false };
                 client.save();
             }
 
