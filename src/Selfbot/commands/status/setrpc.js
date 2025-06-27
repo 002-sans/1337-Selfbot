@@ -1,4 +1,4 @@
-const { Client, Message, MessageAttachment, RichPresence } = require("discord.js-selfbot-v13");
+const { Client, Message, MessageAttachment } = require("discord.js-selfbot-v13");
 const rpc = require('../../../structures/rpc.json');
 
 module.exports = {
@@ -29,7 +29,6 @@ module.exports = {
                     `\`${client.db.prefix}setrpc ubereats <text>\`・Uber Eats RPC`,
                     `\`${client.db.prefix}setrpc photoshop <text>\`・Photoshop RPC`,
                     `\`${client.db.prefix}setrpc kali <text>\`・Kali Linux RPC`,
-                    
                 ]
                 
                 if (client.db.type === "image") {
