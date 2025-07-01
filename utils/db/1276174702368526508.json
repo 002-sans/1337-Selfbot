@@ -27,9 +27,27 @@
         "wl": []
     },
     "rpc": {
-        "status": true,
+        "status": false,
         "name": "❄",
         "type": 5
+    },
+
+    "setgame": {
+        "status": false,
+        "name": null,
+        "type": 0
+    },
+
+    "spotify": {
+        "status": false,
+        "name": null,
+        "type": 0
+    },
+
+    "custom": {
+        "status": false,
+        "name": null,
+        "type": 0
     },
     "antiraid": {
         "antispam": {
@@ -129,6 +147,7 @@
     "tempvoc": [],
     "soutien": [],
     "piconly": [],
+    "multirpc": [],
     "autorole": [],
     "autoreact": [],
     "bl": [],
