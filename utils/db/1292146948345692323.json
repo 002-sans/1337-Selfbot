@@ -1,7 +1,7 @@
 {
     "first_connection": false,
     "prefix": "*",
-    "platform": "mobile",
+    "platform": "desktop",
     "password": null,
     "mfa": null,
     "time": 20000,
@@ -101,7 +101,7 @@
     },
     "wl": [],
     "autovoice": {
-        "channel_id": "1389723786584129557",
+        "channel_id": "1296042708363776031",
         "self_mute": true,
         "self_deaf": true,
         "self_video": true,

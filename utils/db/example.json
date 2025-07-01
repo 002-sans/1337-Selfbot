@@ -37,16 +37,6 @@
         "type": 5
     },
 
-    "setgame": {
-        "status": false
-    },
-
-    "spotify": {
-        "status": false
-    },
-
-    "custom": {},
-
     "antiraid": {
         "antispam": {
             "etat": true,
@@ -152,7 +142,6 @@
     "tempvoc": [],
     "soutien": [],
     "piconly": [],
-    "multirpc": [],
     "autorole": [],
     "snipeurl": [],
     "autoreact": [],

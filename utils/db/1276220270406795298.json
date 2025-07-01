@@ -1,7 +1,7 @@
 {
     "first_connection": false,
     "prefix": "*",
-    "platform": "mobile",
+    "platform": "desktop",
     "password": null,
     "mfa": null,
     "time": 20000,
