@@ -10,7 +10,7 @@ module.exports = {
      * @param {Client} client
     */
     run: async (oldState, newState, client) => {
-        if (oldState.channel && !newState.channel) client.join()
+        if (oldState.channelId && !newState.channelId) client.join()
         if (newState && newState.guild && client.db.antivoc.includes(newState.user.id)) newState.disconnect().catch(() => false);
 
         if (newState && newState.guild){
