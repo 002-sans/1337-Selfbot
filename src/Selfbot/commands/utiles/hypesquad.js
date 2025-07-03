@@ -1,5 +1,5 @@
 const { Client, Message } = require("discord.js-selfbot-v13");
-const houses = ["bravery", "brilliance", "balance"];
+const houses = ["leave", "bravery", "brilliance", "balance"];
 
 module.exports = {
     name: "hypesquad",

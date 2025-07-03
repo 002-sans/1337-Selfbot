@@ -55,6 +55,12 @@ module.exports =
 
                 interaction.reply({ embeds: [embed], flags: 64 });
                 break;
+
+            case 'show':
+                const userPremium = interaction.options.getUser('utilisateur');
+                if (!userPremium) return interaction.reply({ content: 'Veuillez spécifier un utilisateur valide', flags: 64 });
+
+                break;
         }
     },
     get data() 
