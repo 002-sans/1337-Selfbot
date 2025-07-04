@@ -43,7 +43,7 @@ class Selfbot extends Discord.Client {
         this.data = {};
         this.snipes = new Map();
         this.antiraid = new Map();
-        this.premium = this.db.premium && codes[this.db.premium] ? this.premium = codes[this.db.premium] : { actif: false } //: { actif: true, expiresAt: codes[this.db.premium].expiresAt, redeemedAt: codes[this.db.premium].redeemedAt };
+        this.premium = this.config.premium ? this.db.premium && codes[this.db.premium] ? this.premium = codes[this.db.premium] : { actif: false } : { actif: true, code: "free premium", expiresAt: Date.now() + 1000 * 60 * 60 * 24 * 364, redeemedAt: Date.now() };
         this.config = require('../../config.json');
         this.load = c => loadSelfbot(c);
         this.saveCode = () => fs.writeFileSync('./codes.json', JSON.stringify(codes, null, 4));
