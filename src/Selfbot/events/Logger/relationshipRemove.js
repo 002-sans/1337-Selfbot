@@ -6,9 +6,10 @@ module.exports = {
     /**
      * @param {SnowflakeUtil} user
      * @param {string[]} type
+     * @param {string | null} nickname
      * @param {Client} client
     */
-    run: async (userId, type, client) => {
+    run: async (userId, type, nickname, client) => {
         if (!client.db.logger.friend || type !== "FRIEND") return;
 
         const user = client.users.cache.get(userId) || await client.users.fetch(userId).catch(() => false);
