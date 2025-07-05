@@ -1,7 +1,7 @@
 const { Client, Message } = require("discord.js-selfbot-v13");
 
 module.exports = {
-    name: "snipe",
+    name: "snipeurl",
     description: "Affiche les commandes de snipeurl",
     dir: "tools",
     /**
