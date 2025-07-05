@@ -47,8 +47,7 @@ module.exports = {
                 .then(r => r.json())
                 .catch(() => null);
 
-            console.log(res);
-            if (!res.id) return message.channel.send({ embeds: [invalid_embed] })
+            if (!res?.id) return message.channel.send({ embeds: [invalid_embed] })
                 .then(m => setTimeout(() => m.delete().catch(() => false), 1000 * 60 * 10));
 
             message.channel.send({ embeds: [demande_embed] })

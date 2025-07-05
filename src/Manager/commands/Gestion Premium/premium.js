@@ -41,7 +41,7 @@ module.exports =
                     db = require(`../../../../utils/db/${interaction.user.id}.json`)
 
 
-                if (user) user.send(`**\`🔑\`・Vous avez reçu une clé premium\n\`⏳\`・La clé expire <t:${Math.round((Date.now() + client.ms(temps)) / 1000)}:R> (\`${keyName}\`)\n\`🤖\`・Utilisez la commande \`${db?.prefix ?? '*'}premium ${keyName}\`**`)
+                if (user) user.send(`**\`🔑\`・Vous avez reçu une clé premium\n\`⏳\`・La clé expire <t:${Math.round((Date.now() + client.ms(temps)) / 1000)}:R> (\`${keyName}\`)\n\`💎\`・Utilisez la commande \`${db?.prefix ?? '*'}premium ${keyName}\`**`)
                     .then(() => interaction.reply({ content: `\`✅\`・La clé premium \`${keyName}\` (expire <t:${Math.round((Date.now() + client.ms(temps)) / 1000)}:R>) a été envoyé à ${user}`,  flags: 64 }))
                     .catch(e => interaction.reply({ content: `\`❌\`・La clé premium n'a pas pu être envoyé à ${user}.\n\`🔑\`・La clé expire <t:${Math.round((Date.now() + client.ms(temps)) / 1000)}:R> (\`${keyName}\`)`, flags: 64 }))
 
