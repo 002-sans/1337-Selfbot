@@ -14,7 +14,7 @@ module.exports = {
         for (const role of addedRoles.values()) {
             const limitRole = client.db.limitrole.find(r => r.id === roleData.id || r.ID === roleData.id);
             if (limitRole) {
-                const roleData = await role.fetch();
+                const roleData = await role.fetch().catch(() => false);
                 const max = limitRole.max ?? limitRole.MAX;
                 const membersWithRole = newMember.guild.members.cache.filter(m => m.roles.cache.has(roleData.id)).size;
 
