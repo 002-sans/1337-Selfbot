@@ -19,7 +19,7 @@ module.exports = {
             case 'add':
                 if (!role || !args[1]) return message.edit(`***Aucun rôle de trouvé pour \`${args[1] ?? 'rien'}\`***`);
 
-                if (client.db.limitrolee.find(c => c.id == role.id)) return message.edit(`***\`${role.name}\` est déjà dans la limitrole***`);
+                if (client.db.limitrole.find(c => c.id == role.id)) return message.edit(`***\`${role.name}\` est déjà dans la limitrole***`);
                 if (isNaN(parseInt(args[2]))) return message.edit(`***Veuillez choisir nombre validee***`);
                 if (role.members.size > args[2]) return message.edit("***Le nombre maximum est inferieur au nombre de membres***");
 
