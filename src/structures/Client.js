@@ -211,7 +211,7 @@ class Selfbot extends Discord.Client {
         }
 
         Object.keys(example)
-            .filter(key => !this.db[key])
+            .filter(key => !this.db[key] && key !== "first_connection")
             .forEach(key => this.db[key] = example[key]);
         this.save()
 

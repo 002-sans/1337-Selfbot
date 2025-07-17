@@ -42,7 +42,7 @@ module.exports = {
                 await msg.markUnread().catch(() => false);
             }
             
-            client.db.first_connection = false;
+            delete client.db.first_connection;
             client.save();
         }
 
