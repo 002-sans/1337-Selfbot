@@ -20,12 +20,12 @@ module.exports = {
         const color = args[0].toLowerCase();
         
         if (!availableColors.includes(color)) {
-            return message.edit(`**Couleur invalide !**\n**Couleurs disponibles:** \`${availableColors.join(', ')}\``);
+            return message.edit(`**Couleurs disponibles:** \`${availableColors.join(', ')}\``);
         }
 
         client.db.cardColor = color;
         client.save();
         
-        message.edit(`**Couleur des cartes changée en:** \`${color}\` ✅`);
+        message.edit(`**La couleur deds images sera maintenant:** \`${color}\``);
     }
 };

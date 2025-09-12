@@ -147,7 +147,7 @@ class Selfbot extends Discord.Client {
 
 
             ctx.globalAlpha = 0.2;
-            drawRoundedRect(ctx, 15, 15, 320, 70, 15, theme.secondary);
+            drawRoundedRect(ctx, 15, 15, 220, 70, 15, theme.secondary);
             ctx.globalAlpha = 1;
 
 
@@ -196,7 +196,7 @@ class Selfbot extends Discord.Client {
 
             const logoSize = 80;
             const logoX = 250;
-            const logoY = 20;
+            const logoY = 10;
 
 
             ctx.shadowColor = theme.primary;
@@ -208,7 +208,8 @@ class Selfbot extends Discord.Client {
 
 
             try {
-                const logoImg = await Canvas.loadImage(img || this.config.logo);
+                const logoUrl = this.db.image || this.config.logo;
+                const logoImg = await Canvas.loadImage(logoUrl);
                 
 
                 ctx.save();

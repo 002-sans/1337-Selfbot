@@ -30,11 +30,11 @@ module.exports = {
         try {
             const image = await client.card("Test Card", client.db.image, testCommands);
             await message.edit({
-                content: `🎨 **Aperçu de la carte** • Couleur: \`${client.db.cardColor}\` • Taille optimisée: \`~30KB\``,
+                content: `**Aperçu de la carte** • Couleur: \`${client.db.cardColor}\``,
                 files: [new MessageAttachment(image, 'test-card.png')]
             });
         } catch (error) {
-            message.edit(`❌ **Erreur lors de la génération:** ${error.message}`);
+            message.edit(`**Erreur lors de la génération:** ${error.message}`);
         }
 
         client.db.cardColor = originalColor;
