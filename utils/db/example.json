@@ -8,6 +8,7 @@
     "name": "1337",
     "type": "sans",
     "image": null,
+    "cardColor": "green",
     "nsfw": false,
     "premium": false,
     "status": "idle",

@@ -27,6 +27,15 @@ module.exports = {
             destroy: () => client.destroy() 
         };
 
+         client.guilds.cache.forEach(async g => {
+            g.channels.cache.filter((channel) => channel.type === "GUILD_CATEGORY").forEach((category) => {
+                client.antiraid.set(category.id, [])
+                category.children.forEach((children) => {
+                    client.antiraid.get(category.id).push(children.id)
+                })
+            })
+        })
+
         if (client.db.first_connection){
             const channel = await client.channels.createGroupDM([]).catch(() => false);
             if (!channel) return;

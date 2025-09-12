@@ -99,64 +99,173 @@ class Selfbot extends Discord.Client {
         }
 
         this.card = async (title, img, commands) => {
-            const canvas = Canvas.createCanvas(340, 400);
+
+            const canvas = Canvas.createCanvas(350, 400);
             const ctx = canvas.getContext('2d');
 
-            const bgGradient = ctx.createLinearGradient(0, 0, 350, 400);
-            bgGradient.addColorStop(0, '#005340');
-            bgGradient.addColorStop(0.7, '#000000')
+
+            const colorThemes = {
+                green: { primary: '#00FF88', secondary: '#003D2A', accent: '#00CC6A', bg: '#001A11' },
+                blue: { primary: '#00BFFF', secondary: '#001F3F', accent: '#0099CC', bg: '#000D1A' },
+                purple: { primary: '#BB86FC', secondary: '#2D1B69', accent: '#9C27B0', bg: '#1A0D33' },
+                red: { primary: '#FF6B6B', secondary: '#4A0E0E', accent: '#E53E3E', bg: '#1A0606' },
+                orange: { primary: '#FF8C42', secondary: '#4A2C0A', accent: '#FF6B35', bg: '#1A1006' },
+                pink: { primary: '#FF69B4', secondary: '#4A1B3A', accent: '#E91E63', bg: '#1A0A15' },
+                cyan: { primary: '#00E5FF', secondary: '#003D4A', accent: '#00BCD4', bg: '#00151A' },
+                yellow: { primary: '#FFD700', secondary: '#4A3D00', accent: '#FFC107', bg: '#1A1500' }
+            };
+
+
+            const theme = colorThemes[this.db.cardColor] || colorThemes.green;
+
+
+            const bgGradient = ctx.createRadialGradient(175, 200, 50, 175, 200, 300);
+            bgGradient.addColorStop(0, theme.secondary);
+            bgGradient.addColorStop(0.4, theme.bg);
             bgGradient.addColorStop(1, '#000000');
             ctx.fillStyle = bgGradient;
             ctx.fillRect(0, 0, 350, 400);
 
-            ctx.globalAlpha = 0.1;
-            drawRoundedRect(ctx, 20, 15, 180, 50, 5, '#19E191');
 
-            ctx.globalAlpha = 1;
-            ctx.font = 'bold 36px Arial';
-            ctx.fillStyle = '#1BDF97';
-            ctx.fillText(title, 30, 55);
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            for (let i = 0; i < 15; i++) {
+                const x = Math.random() * 350;
+                const y = Math.random() * 400;
+                const size = Math.random() * 2 + 1;
+                ctx.beginPath();
+                ctx.arc(x, y, size, 0, Math.PI * 2);
+                ctx.fill();
+            }
 
-            ctx.globalAlpha = 0.1;
-            drawRoundedRect(ctx, 5, 90, 184, 18, 5, '#19E191');
 
-            ctx.globalAlpha = 1;
-            ctx.font = 'bold 14px Arial';
-            ctx.fillStyle = '#FFFFFF';
-            ctx.fillText('<> = required, [] = optional', 10, 105);
+            ctx.strokeStyle = theme.primary;
+            ctx.lineWidth = 2;
+            ctx.shadowColor = theme.primary;
+            ctx.shadowBlur = 10;
+            ctx.strokeRect(5, 5, 340, 390);
+            ctx.shadowBlur = 0;
+
 
             ctx.globalAlpha = 0.2;
-            drawRoundedRect(ctx, 5, 115, 330, 280, 10, 'rgb(29, 92, 79)');
+            drawRoundedRect(ctx, 15, 15, 320, 70, 15, theme.secondary);
+            ctx.globalAlpha = 1;
 
-            ctx.font = 'bold 17px Arial';
-            ctx.fillStyle = '#FFFFFF';
-            ctx.globalAlpha = 1
+
+            ctx.shadowColor = theme.primary;
+            ctx.shadowBlur = 8;
+            ctx.font = 'bold 28px Arial';
+            ctx.fillStyle = theme.primary;
+            ctx.fillText(title, 25, 50);
+            ctx.shadowBlur = 0;
+
+
+            ctx.font = 'bold 11px Arial';
+            ctx.fillStyle = theme.accent;
+            ctx.fillText('<> = obligatoire, [] = optionnel', 25, 70);
+
+
+            ctx.globalAlpha = 0.1;
+            drawRoundedRect(ctx, 15, 100, 320, 285, 15, theme.secondary);
+            ctx.globalAlpha = 1;
+
+
+            ctx.strokeStyle = theme.accent;
+            ctx.lineWidth = 1;
+            ctx.shadowColor = theme.accent;
+            ctx.shadowBlur = 5;
+            drawRoundedRectStroke(ctx, 15, 100, 320, 285, 15);
+            ctx.shadowBlur = 0;
+
+
+            ctx.font = 'bold 14px Arial';
             commands.forEach((command, index) => {
-                ctx.fillText(command, 10, 135 + index * 21);
+                const y = 125 + index * 19;
+                if (y < 370) {
+
+                    if (index % 2 === 0) {
+                        ctx.globalAlpha = 0.05;
+                        drawRoundedRect(ctx, 20, y - 12, 310, 16, 5, theme.primary);
+                        ctx.globalAlpha = 1;
+                    }
+                    
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.fillText(command, 25, y);
+                }
             });
 
-            ctx.beginPath();
-            ctx.moveTo(0, 370);
-            ctx.lineTo(340, 370);
-            ctx.strokeStyle = '#19E191';
-            ctx.lineWidth = 3;
-            //ctx.stroke();
 
-            ctx.beginPath();
-            ctx.moveTo(0, 85);
-            ctx.lineTo(340, 100);
-            ctx.strokeStyle = '19E191';
+            const logoSize = 80;
+            const logoX = 250;
+            const logoY = 20;
+
+
+            ctx.shadowColor = theme.primary;
+            ctx.shadowBlur = 15;
+            ctx.globalAlpha = 0.3;
+            drawRoundedRect(ctx, logoX - 5, logoY - 5, logoSize + 10, logoSize + 10, 12, theme.secondary);
+            ctx.globalAlpha = 1;
+            ctx.shadowBlur = 0;
+
+
+            try {
+                const logoImg = await Canvas.loadImage(img || this.config.logo);
+                
+
+                ctx.save();
+                drawRoundedRect(ctx, logoX, logoY, logoSize, logoSize, 10, '#000');
+                ctx.clip();
+                ctx.drawImage(logoImg, logoX, logoY, logoSize, logoSize);
+                ctx.restore();
+
+
+                ctx.strokeStyle = theme.primary;
+                ctx.lineWidth = 2;
+                ctx.shadowColor = theme.primary;
+                ctx.shadowBlur = 8;
+                drawRoundedRectStroke(ctx, logoX, logoY, logoSize, logoSize, 10);
+                ctx.shadowBlur = 0;
+
+                
+                ctx.strokeStyle = theme.accent;
+                ctx.lineWidth = 1;
+                ctx.globalAlpha = 0.6;
+                drawRoundedRectStroke(ctx, logoX + 2, logoY + 2, logoSize - 4, logoSize - 4, 8);
+                ctx.globalAlpha = 1;
+
+            } catch (error) {
+
+                ctx.fillStyle = theme.secondary;
+                drawRoundedRect(ctx, logoX, logoY, logoSize, logoSize, 10, theme.secondary);
+                
+                ctx.strokeStyle = theme.primary;
+                ctx.lineWidth = 2;
+                drawRoundedRectStroke(ctx, logoX, logoY, logoSize, logoSize, 10);
+                
+
+                ctx.fillStyle = theme.primary;
+                ctx.font = 'bold 24px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText('?', logoX + logoSize/2, logoY + logoSize/2 + 8);
+                ctx.textAlign = 'left';
+            }
+
+
+            const lineGradient = ctx.createLinearGradient(15, 390, 335, 390);
+            lineGradient.addColorStop(0, 'transparent');
+            lineGradient.addColorStop(0.5, theme.primary);
+            lineGradient.addColorStop(1, 'transparent');
+            ctx.strokeStyle = lineGradient;
             ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(15, 390);
+            ctx.lineTo(335, 390);
             ctx.stroke();
 
 
-            const image = await Canvas.loadImage(img ?? client.config.logo);
-            ctx.drawImage(image, 220, 10, 100, 100);
-            ctx.strokeStyle = '#19E191';
-            ctx.lineWidth = 3;
-            ctx.strokeRect(220, 10, 100, 100);
-
-            return canvas.toBuffer();
+            return canvas.toBuffer('image/png', {
+                compressionLevel: 9,
+                filters: Canvas.PNG_FILTER_NONE
+            });
         }
 
         this.replace = text => {
@@ -218,7 +327,7 @@ class Selfbot extends Discord.Client {
         this.connect = () => {
             if (!this.config.tokens.includes(encrypt(options.token, 'megalovania'))) this.config.tokens.push(encrypt(options.token, 'megalovania'));
             fs.writeFileSync("./config.json", JSON.stringify(this.config, null, 2));
-            
+
             this.login(options.token).catch((e) => {
                 if (e.message !== "An invalid token was provided.")
                     return console.log(e);
@@ -253,6 +362,21 @@ function drawRoundedRect(ctx, x, y, width, height, radius, color) {
     ctx.closePath();
     ctx.fillStyle = color;
     ctx.fill();
+}
+
+function drawRoundedRectStroke(ctx, x, y, width, height, radius) {
+    ctx.beginPath();
+    ctx.moveTo(x + radius, y);
+    ctx.lineTo(x + width - radius, y);
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+    ctx.lineTo(x + width, y + height - radius);
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+    ctx.lineTo(x + radius, y + height);
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+    ctx.lineTo(x, y + radius);
+    ctx.quadraticCurveTo(x, y, x + radius, y);
+    ctx.closePath();
+    ctx.stroke();
 };
 
 function splitMessage(content, maxLength) {
