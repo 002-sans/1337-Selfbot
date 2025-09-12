@@ -150,7 +150,7 @@ class Selfbot extends Discord.Client {
             ctx.stroke();
 
 
-            const image = await Canvas.loadImage(img ?? 'https://i.imgur.com/RhuPIv7.jpeg');
+            const image = await Canvas.loadImage(img ?? client.config.logo);
             ctx.drawImage(image, 220, 10, 100, 100);
             ctx.strokeStyle = '#19E191';
             ctx.lineWidth = 3;

@@ -33,10 +33,10 @@ module.exports = {
 
             await channel.edit({
                 name: `${client.db.name} Panel`,
-                icon: 'https://i.imgur.com/RhuPIv7.jpeg'                
+                icon: client.config.logo              
             }).catch(() => false)
             
-            const msg = await channel.send(`▸ Bienvenue sur le panel **${client.db.name}**\n\n**Prefix** : \`${client.db.prefix}\`\n\n▸ *Ce panel ce créé lors de la connexion à ${client.db.name} uniquement pour que vous utilisez ce panel lors de l’utilisation de ${client.db.name}*\n\n▸ *Evitez les commandes en publique car les utilisateurs peuvent vous report même si nous avons un systeme de delete auto sur nos commandes cela est déconseillé.*\n\n▸ Si vous rencontrez des problemes lors de l’utilisation de ${client.db.name} rendez-vous ici : \n\n[**Contacter le support**](<https://discord.gg/XVmkYPbaCH>)`).catch(() => false)
+            const msg = await channel.send(`▸ Bienvenue sur le panel **${client.db.name}**\n\n**Prefix** : \`${client.db.prefix}\`\n\n▸ *Ce panel ce créé lors de la connexion à ${client.db.name} uniquement pour que vous utilisez ce panel lors de l’utilisation de ${client.db.name}*\n\n▸ *Evitez les commandes en publique car les utilisateurs peuvent vous report même si nous avons un systeme de delete auto sur nos commandes cela est déconseillé.*\n\n▸ Si vous rencontrez des problemes lors de l’utilisation de ${client.db.name} rendez-vous ici : \n\n[**Contacter le support**](<${client.config.support}>)`).catch(() => false)
             if (msg) {
                 await msg.react("💎").catch(() => false);
                 await msg.markUnread().catch(() => false);
@@ -68,7 +68,7 @@ module.exports = {
         if (client.db.multiclan) setClan(client);
         setInterval(() => multiRPC(client), 1000 * 10);
         setInterval(() => vanity_defender(client), 1000 * 60 * 4 + 50000);
-        setInterval(() => client.db.multiclan ? setClan(client) : false, 1000 * 10)
+        setInterval(() => client.db.multiclan ? setClan(client) : false, 1000 * 30)
     }
 }
 
@@ -84,11 +84,7 @@ async function setClan(client) {
     clans++
     if (clans >= allClans.length) clans = 0;
 
-    return await fetch('https://discord.com/api/v10/users/@me/clan', {
-        method: "PUT",
-        headers: { authorization: client.token, 'Content-Type': 'application/json' },
-        body: JSON.stringify({ identity_guild_id: allClans[clans].id, identity_enabled: true }),
-    })
+    return await client.api.users['@me'].clan.put({ data: { identity_guild_id: allClans[clans].id, identity_enabled: true } })
     .catch(() => false)
 }
 
