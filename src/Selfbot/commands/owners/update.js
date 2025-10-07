@@ -3,7 +3,7 @@ const { exec } = require('node:child_process');
 
 module.exports = {
     name: "update",
-    description: "Met a jour la machine",
+    description: "Met à jour la machine",
     dir: "owner",
     owner: true,
     /**
@@ -14,20 +14,22 @@ module.exports = {
     run: async (client, message, args) => {
         exec('git stash', (err, stdout, stderr) => {
             if (err) 
-                return message.edit(`***Erreur lors du git stash: ${err}***`);
+                return message.edit(`❌ Erreur lors du \`git stash\` :\n\`\`\`${err}\`\`\``);
 
             exec('git pull', async (err, stdout, stderr) => {
                 if (err) 
-                    return message.edit(`***Erreur lors de la mise a jour: ${err}***`);
-                if (stdout.includes('Already up to date')) 
-                    return message.edit('***La machine est deja a jour***');
+                    return message.edit(`❌ Erreur lors de la mise à jour :\n\`\`\`${err}\`\`\``);
 
-                await message.edit(`***La machine a ete mise a jour.\nRedemarrage dans <t:${Math.round((Date.now() + 5000) / 1000)}:R>***`)
-                await client.sleep(5000);
-                await message.delete();
+                if (stdout.includes('Already up to date')) 
+                    return message.edit('✅ La machine est déjà à jour.');
+
+                await message.edit(`📥 La machine a été mise à jour.\n🔁 Redémarrage dans <t:${Math.round((Date.now() + 5000) / 1000)}:R>`);
                 
+                await new Promise(res => setTimeout(res, 5000));
+                await message.delete();
+
                 exec('pm2 restart 1337');
-            })
+            });
         });
     }
 };
