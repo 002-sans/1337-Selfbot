@@ -13,9 +13,9 @@ module.exports = {
     run: async (client, message, args) => {
         switch(args[0]){
             case 'show':
-                const data = await client.api.auth.sessions.get()
+                const data = await client.api.auth.sessions.get();
                 if (data.user_sessions.length == 0) return message.edit("***Vous n'avez aucune session en cours***");
-                
+
                 message.edit(`> ***Liste de vos sessions***\n${data.user_sessions.map(r => `- <t:${Math.floor(new Date(r.approx_last_used_time).getTime() / 1000)}:R>・${r.client_info.os}`).join('\n')}`)
                 break;
 

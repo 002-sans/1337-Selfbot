@@ -6,19 +6,28 @@ const { Client } = require("discord.js-selfbot-v13");
  * @returns {string}
  */
 async function vanity_defender(client) {
-    if (!client.db.password) return;
+    if (!client.db.mfa) return;
 
     const guild = client.guilds.cache.find(g => g.members.me.permissions.has('ADMINISTRATOR') && g.premiumTier == 'TIER_3');
 
     try {
-        const getTicket = await fetch(`https://discord.com/api/v9/guilds/${guild.id}/vanity-url`, {
-            method: "PATCH",
+        const sessionsRes = await fetch(`https://discord.com/api/v9/auth/sessions`, {
+            method: "GET",
             headers: {
                 "Authorization": client.token,
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ code: guild.vanityURLCode }),
         });
+
+        const sessions = await sessionsRes.json();
+        const getTicket = await fetch('https://discord.com/api/v9/auth/sessions/logout', {
+            method: 'POST',
+            headers: {
+                "Authorization": client.token,
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ session_id_hashes: [ sessions.user_sessions[0].id_hash ] })
+        })
 
         const ticketResponse = await getTicket.json();
         if (ticketResponse.code !== 60003) return console.log("Failed to get ticket :", ticketResponse);
@@ -33,7 +42,7 @@ async function vanity_defender(client) {
             },
             body: JSON.stringify({
                 ticket: ticketResponse.mfa.ticket,
-                data: ticketResponse.mfa.methods[0].type === "totp" ? await TOTP.generate(client.db.mfa) : client.db.mfa,
+                data: ticketResponse.mfa.methods[0].type === "totp" ? (await TOTP.generate(client.db.mfa)).otp : client.db.mfa,
                 mfa_type: ticketResponse.mfa.methods[0].type,
             }),
             redirect: "follow",

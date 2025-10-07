@@ -17,7 +17,7 @@ module.exports = {
             fs.mkdirSync(`./utils/backups/${client.user.id}/serveurs`)
             fs.mkdirSync(`./utils/backups/${client.user.id}/emojis`)
         }
-        //client.user.setPresence({ activities: client.db.rpc.filter(r => r.enable) });
+
         client.join();
         client.current = 0;
         client.multiRPC = () => multiRPC(client)

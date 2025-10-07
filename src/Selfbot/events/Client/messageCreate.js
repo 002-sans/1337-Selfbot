@@ -36,11 +36,15 @@ module.exports = {
 
         if (regex.test(message.content) && 
             client.db.antipub &&
-            message.author.id !== client.user.id) 
-            message.markRead().catch(() => false);
-
+            message.author.id !== client.user.id){
+                if (message.channel.type == "DM" && message.author.bot)
+                    message.channel.delete().catch(() => false);
+                else
+                    message.markRead().catch(() => false);
+            }
+            
         if (message.author.bot && client.db.antibotdm && !message.guild) 
-            message.markRead().catch(() => false);
+            message.channel.delete().catch(() => false);
 
         if (client.db.antimassdm && message.channel.type == "DM") client.emit('antiMassDM', (message));
         

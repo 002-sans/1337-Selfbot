@@ -33,7 +33,6 @@ module.exports = {
 
             for (const msg of messages.sort(() => Math.random() - 0.5).values()) {
                 try {
-                    console.log(msg.content)
                     await msg.delete();
                     await client.sleep(10000);
                 } catch (error) { false }

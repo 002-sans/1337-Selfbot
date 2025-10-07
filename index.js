@@ -1,4 +1,3 @@
-const clients = [];
 const fs = require('node:fs');
 const crypto = require('node:crypto');
 const buyers = require('./src/Manager/buyers.json');
