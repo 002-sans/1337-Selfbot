@@ -22,6 +22,7 @@ module.exports = {
                 if (client.db.autobump.includes(channel.id))
                     return message.edit(`***Le salon ${channel} est deja un autobump***`);
 
+                channel.sendSlash('302050872383242240', 'bump').catch(() => false);
                 client.db.autobump.push(channel.id);
                 client.save();
 
