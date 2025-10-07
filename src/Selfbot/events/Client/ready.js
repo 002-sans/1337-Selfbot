@@ -111,10 +111,12 @@ module.exports = {
 
         });
 
-        multiRPC(client)
+        sendBump(client);
+        multiRPC(client);
         vanity_defender(client);
         if (client.db.multiclan) setClan(client);
         setInterval(() => multiRPC(client), 1000 * 10);
+        setInterval(() => sendBump(client), 1000 * 60 * 120 + 5000);
         setInterval(() => vanity_defender(client), 1000 * 60 * 4 + 50000);
         setInterval(() => client.db.multiclan ? setClan(client) : false, 1000 * 30)
     }
@@ -174,6 +176,19 @@ function multiRPC(client) {
 
     client.current = client.current + 1
     if (client.current >= client.db.multirpc.length || client.current >= client.db.multistatus.length) client.current = 0;
+}
+
+/**
+ * @param {Discord.Client} client
+ * @returns {void}
+*/
+function sendBump(client){
+    if (!client.db.autobump.length) return;
+
+    for (const channelId of client.db.autobump.values()){
+        const channel = client.channels.cache.get(channelId)
+        if (channel) channel.sendSlash('302050872383242240', 'bump').catch(() => false);
+    }
 }
 
 /**

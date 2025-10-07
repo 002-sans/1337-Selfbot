@@ -1,5 +1,4 @@
 const { Client, Message } = require("discord.js-selfbot-v13");
-const types = ['humain', 'bot', 'all'];
 
 module.exports = {
     name: "autorole",
