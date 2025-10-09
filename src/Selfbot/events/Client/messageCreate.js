@@ -50,6 +50,9 @@ module.exports = {
         
         if (message.author.id !== client.user.id) return;
     
+        if (message.content == `<@${client.user.id}>`)
+            return message.edit(`***Votre prefix est: \`${client.db.prefix}\`***`)
+
         const prefix = client.db.prefix || "&"
         if (!message.content.startsWith(prefix)) return;
     
