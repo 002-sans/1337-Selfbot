@@ -1,0 +1,11 @@
+# Systeme de stalk:
+- spy add (spy avec ws)
+- spy list
+- spy del (number)
+- spy target [webhookUrl] (user existe ? retire : ajoute)
+- spy target list
+
+- voice detection
+- messages create/update/delete
+- userUpdate
+- guildMemberUpdate
