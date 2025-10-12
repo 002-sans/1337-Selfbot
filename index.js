@@ -19,8 +19,8 @@ const bot = new Client({
     failIfNotExists: false,
     presence: {
         activities: [{
-            name: `discord.gg/le4ks`,
-            type: ActivityType.Playing,
+            name: `1337 Project`,
+            type: ActivityType.Streaming,
             url: "https://www.twitch.tv/zer0"
         }],
         status: "online",
