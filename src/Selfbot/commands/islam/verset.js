@@ -16,7 +16,7 @@ module.exports = {
         if (sourate < 1 || sourate > 114) 
             return message.edit("***Veuillez entrer un nombre d'une sourate entre 1 et 114***");
 
-        const res = await fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/fra-islamicfoundati-la/${number}.json`);
+        const res = await fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/fra-islamicfoundati-la/${sourate}.json`);
         if (!res) 
             return message.edit("***Contact avec l'API impossible***");
 

@@ -11,17 +11,17 @@ module.exports = {
      * @param {string[]} args
     */
     run: async (client, message, args) => {
-        const sourate = Number(args[0]) ? args[0] :  Math.floor(Math.random() * 114) + 1;
-        
-        if (sourate < 1 || sourate > 114) 
+        const sourate = Number(args[0]) ? args[0] : Math.floor(Math.random() * 114) + 1;
+
+        if (sourate < 1 || sourate > 114)
             return message.edit("***Veuillez entrer un nombre d'une sourate entre 1 et 114***");
 
         const res = await fetch('https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/info.json');
-        if (!res) 
+        if (!res)
             return message.edit("***Contact avec l'API impossible***");
 
         const { chapter } = await res.json();
-        if (!chapter) 
+        if (!chapter)
             return message.edit("***Probleme rencontre lors de la recuperation des versets***");
 
         const verset = chapter.find(c => c.chapter == sourate);
