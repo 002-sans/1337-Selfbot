@@ -28,8 +28,8 @@ L'utilisation de selfbots est contraire aux conditions d'utilisation de Discord 
 
 1. Cloner le repository
 ```bash
-git clone https://github.com/002-sans/HEX-Project
-cd 1337-project
+git clone https://github.com/002-sans/1337-selfbot
+cd 1337-selfbot
 ```
 
 2. Installer les dépendances
