@@ -28,7 +28,7 @@ L'utilisation de selfbots est contraire aux conditions d'utilisation de Discord 
 
 1. Cloner le repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/002-sans/HEX-Project
 cd 1337-project
 ```
 
